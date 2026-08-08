@@ -105,6 +105,10 @@ function NotFoundComponent() {
           That URL doesn't map to anything on EasyFileMagic — but you're probably looking for one of these.
         </p>
 
+        <div className="mt-8 max-w-xl">
+          <ToolSearch />
+        </div>
+
         <h2 className="mt-10 font-mono text-sm font-bold uppercase tracking-widest text-ink">Popular tools</h2>
         <ul className="mt-4 grid gap-2 sm:grid-cols-2">
           {[
