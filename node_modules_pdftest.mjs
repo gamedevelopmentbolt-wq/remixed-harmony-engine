@@ -1,0 +1,10 @@
+import fs from 'fs';
+const buf = fs.readFileSync('/tmp/sample.pdf');
+const { PDFDocument } = await import('pdf-lib');
+const doc = await PDFDocument.load(new Uint8Array(buf), { ignoreEncryption: true });
+console.log('pdf-lib OK pages=', doc.getPageCount());
+const out = await PDFDocument.create();
+const pages = await out.copyPages(doc, doc.getPageIndices());
+pages.forEach(p => out.addPage(p));
+const bytes = await out.save();
+console.log('merge OK bytes=', bytes.length);

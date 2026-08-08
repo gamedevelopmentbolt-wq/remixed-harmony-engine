@@ -1,0 +1,175 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * EasyFileMagic — "The Workbench" design system.
+ * Colors defined as raw hex vars, mapped to Tailwind utilities via @theme inline.
+ */
+
+@theme inline {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  /* Workbench semantic tokens */
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-line: var(--line);
+  --color-graphite: var(--graphite);
+  --color-signal: var(--signal);
+  --color-signal-foreground: var(--signal-foreground);
+  --color-workshop: var(--workshop);
+}
+
+:root {
+  --radius: 0.875rem; /* 14px cards */
+
+  /* Workbench palette */
+  --ink: #14213D;
+  --ink-foreground: #F3F4EF;
+  --paper: #F3F4EF;
+  --paper-2: #EAEBE3;
+  --line: #D8D4C8;
+  --graphite: #23262B;
+  --signal: #FF5A1F;
+  --signal-foreground: #F3F4EF;
+  --workshop: #2F6F4E;
+
+  /* shadcn semantic mapping (light) */
+  --background: #F3F4EF;
+  --foreground: #23262B;
+  --card: #FFFFFF;
+  --card-foreground: #23262B;
+  --popover: #FFFFFF;
+  --popover-foreground: #23262B;
+  --primary: #14213D;
+  --primary-foreground: #F3F4EF;
+  --secondary: #EAEBE3;
+  --secondary-foreground: #14213D;
+  --muted: #EAEBE3;
+  --muted-foreground: #5b5f66;
+  --accent: #EAEBE3;
+  --accent-foreground: #14213D;
+  --destructive: #b3261e;
+  --destructive-foreground: #F3F4EF;
+  --border: #D8D4C8;
+  --input: #D8D4C8;
+  --ring: #14213D;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-mono);
+    letter-spacing: -0.01em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+/* Blueprint grid — used behind hero */
+@utility blueprint-grid {
+  background-image:
+    linear-gradient(to right, rgba(20, 33, 61, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(20, 33, 61, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+  mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 0%, black 60%, transparent 100%);
+}
+
+/* Pegboard tool card with two circular perforations at the top */
+@utility pegboard-card {
+  position: relative;
+  background: #FFFFFF;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.5rem 1.25rem 1.25rem;
+  box-shadow: 0 1px 0 rgba(20, 33, 61, 0.03), 0 8px 24px -18px rgba(20, 33, 61, 0.25);
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: var(--paper-2);
+    box-shadow: inset 0 1px 2px rgba(20, 33, 61, 0.25);
+  }
+  &::before { left: 14px; }
+  &::after { right: 14px; }
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1px 0 rgba(20, 33, 61, 0.03), 0 18px 30px -20px rgba(20, 33, 61, 0.35);
+    border-color: #bfbaa9;
+  }
+}
+
+@utility stamp-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 1.25rem;
+  border: 1.5px dashed var(--ink);
+  border-radius: 999px;
+  transform: rotate(-4deg);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--paper) 80%, transparent);
+}
