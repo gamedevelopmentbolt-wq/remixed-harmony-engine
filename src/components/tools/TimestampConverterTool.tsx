@@ -9,17 +9,24 @@ function toIsoLocal(d: Date) {
 
 export function TimestampConverterTool() {
   const tool = tools.find((t) => t.slug === "timestamp-converter")!;
-  const [now, setNow] = useState(() => Date.now());
-  const [ts, setTs] = useState<string>(() => Math.floor(Date.now() / 1000).toString());
-  const [iso, setIso] = useState<string>(() => new Date().toISOString());
+  // Time-dependent values must not be computed during SSR/first render,
+  // otherwise the server markup never matches the client (hydration mismatch).
+  const [now, setNow] = useState(0);
+  const [ts, setTs] = useState<string>("");
+  const [iso, setIso] = useState<string>("");
   const [status, setStatus] = useState<ToolStatus>({ kind: "idle" });
 
   useEffect(() => {
+    const n = Date.now();
+    setNow(n);
+    setTs(Math.floor(n / 1000).toString());
+    setIso(new Date(n).toISOString());
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
   }, []);
 
   const parseTs = (raw: string) => {
+    if (!raw.trim()) return null;
     const n = Number(raw);
     if (!Number.isFinite(n)) return null;
     // If < 10^12, treat as seconds
@@ -30,6 +37,7 @@ export function TimestampConverterTool() {
 
   const onTsChange = (v: string) => {
     setTs(v);
+    if (!v.trim()) { setIso(""); setStatus({ kind: "idle" }); return; }
     const d = parseTs(v);
     if (d) { setIso(d.toISOString()); setStatus({ kind: "idle" }); }
     else setStatus({ kind: "error", message: "Not a valid timestamp." });
@@ -64,8 +72,8 @@ export function TimestampConverterTool() {
     >
       <div className="rounded-xl border border-line bg-white p-4">
         <p className="font-mono text-[10px] uppercase tracking-widest text-signal">Live current time</p>
-        <p className="mt-1 font-mono text-lg font-bold text-ink">{Math.floor(now / 1000)}</p>
-        <p className="font-mono text-xs text-graphite">{new Date(now).toISOString()}</p>
+        <p className="mt-1 font-mono text-lg font-bold text-ink">{now ? Math.floor(now / 1000) : "—"}</p>
+        <p className="font-mono text-xs text-graphite">{now ? new Date(now).toISOString() : "—"}</p>
         <GhostButton className="mt-3 !h-9 !text-[11px]" onClick={useNow}>Use now</GhostButton>
       </div>
 
