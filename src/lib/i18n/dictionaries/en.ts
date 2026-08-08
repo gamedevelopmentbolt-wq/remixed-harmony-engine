@@ -41,6 +41,9 @@ export const en = {
       DataUtility: { name: "Data & Utility", desc: "QR codes, CSV/JSON, passwords, regex and quick ZIP archives." },
     },
   },
+  toolOfTheDay: {
+    label: "Tool of the day",
+  },
   toolGrid: {
     section: "Section · 02",
     heading: "The full toolbox",

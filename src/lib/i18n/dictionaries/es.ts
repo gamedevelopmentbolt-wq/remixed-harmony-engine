@@ -43,6 +43,9 @@ export const es: Dict = {
       DataUtility: { name: "Datos y utilidades", desc: "Generador de códigos QR, CSV/JSON, contraseñas, regex y archivos ZIP." },
     },
   },
+  toolOfTheDay: {
+    label: "Herramienta del día",
+  },
   toolGrid: {
     section: "Sección · 02",
     heading: "La caja de herramientas completa",

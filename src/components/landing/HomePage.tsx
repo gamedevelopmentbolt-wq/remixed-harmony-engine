@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { FeaturedTools } from "@/components/landing/FeaturedTools";
+import { ToolOfTheDay } from "@/components/landing/ToolOfTheDay";
 import { CategoryGrid } from "@/components/landing/CategoryGrid";
 import { ToolGrid } from "@/components/landing/ToolGrid";
 import { WhySection } from "@/components/landing/WhySection";
@@ -26,6 +27,7 @@ export function HomePage({ locale }: { locale: Locale }) {
         <main>
           <Hero query={query} onQueryChange={setQuery} onCategorySelect={setCategory} />
           <FeaturedTools />
+          <ToolOfTheDay />
           <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
             <AdSlot className="flex justify-center" />
           </div>
