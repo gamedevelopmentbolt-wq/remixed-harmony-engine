@@ -64,6 +64,14 @@ function ComparisonPage() {
   const { c } = Route.useLoaderData() as {
     c: import("@/lib/comparisons").ComparisonTarget;
   };
+  // Our side of the coverage table is derived from the real tool registry,
+  // so it can never drift from what the site actually ships.
+  const ourCoverageTools =
+    c.toolCoverage?.ourFilter === "pdf"
+      ? tools.filter(
+          (t) => t.category === "PDF" || /pdf/i.test(t.slug) || /pdf/i.test(t.name),
+        )
+      : [];
   const ctaTools = c.ctaToolSlugs
     .map((slug) => tools.find((t) => t.slug === slug))
     .filter((t): t is NonNullable<typeof t> => Boolean(t));
