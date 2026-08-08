@@ -34,6 +34,21 @@ export interface ComparisonTarget {
   whenWeWin: string[];
   /** Suggested EasyFileMagic tool slugs to CTA to */
   ctaToolSlugs: string[];
+  /**
+   * Optional side-by-side tool coverage for one category. Our side is derived
+   * from the real tool registry at render time; the competitor side lists the
+   * tool names they publicly advertise (names only — no invented numbers).
+   */
+  toolCoverage?: {
+    /** Heading label, e.g. "PDF tools" */
+    label: string;
+    /** Predicate key used to select our tools from the registry */
+    ourFilter: "pdf";
+    /** Competitor's publicly listed tool names in this category */
+    competitorTools: string[];
+    /** Honest note about the gaps in either direction */
+    note?: string;
+  };
   /** Optional last-updated ISO date (page shows month/year) */
   updated?: string;
 }
@@ -55,8 +70,8 @@ export const comparisonTargets: ComparisonTarget[] = [
       { feature: "Files uploaded to a server", efm: "No — processed in your browser", competitor: "Yes — uploaded, processed, then deleted", advantage: "efm" },
       { feature: "Watermarks on output", efm: "None, ever", competitor: "None on core tools", advantage: "tie" },
       { feature: "Daily task limit", efm: "None", competitor: "Free tier limited per hour/day", advantage: "efm" },
-      { feature: "File size limit", efm: "Limited by your device RAM", competitor: "Free tier caps around 100 MB", advantage: "efm" },
-      { feature: "Number of core PDF tools", efm: "20+ PDF tools + 70 more (image, convert, data)", competitor: "~25 PDF tools", advantage: "tie" },
+      { feature: "File size limit", efm: "No hard cap — a soft warning appears above 300 MB; the real limit is your device's memory", competitor: "Free tier applies a per-file size cap; larger files need a paid plan", advantage: "efm" },
+      { feature: "Number of PDF tools", efm: "27 PDF tools (plus 77 more image, convert, data and AI tools — 104 total)", competitor: "~25 PDF tools, plus Office-format conversions we don't offer", advantage: "tie" },
       { feature: "Desktop / mobile apps", efm: "Web-only (works on any browser)", competitor: "Yes, iOS / Android / Desktop apps", advantage: "competitor" },
       { feature: "OCR", efm: "Yes, in-browser (Tesseract)", competitor: "Yes, on server", advantage: "tie" },
       { feature: "Batch processing", efm: "Yes, unlimited files", competitor: "Free tier limited", advantage: "efm" },
@@ -75,7 +90,43 @@ export const comparisonTargets: ComparisonTarget[] = [
       "You want more than PDFs — image, convert, OCR, media and data tools in one place.",
     ],
     ctaToolSlugs: ["merge-pdf", "split-pdf", "compress-pdf", "pdf-word", "sign-pdf", "protect-pdf"],
-    updated: "2026-07-26",
+    toolCoverage: {
+      label: "PDF tools",
+      ourFilter: "pdf",
+      // Tool names iLovePDF publicly lists on its own tools page. Names only —
+      // no invented limits, prices or performance numbers.
+      competitorTools: [
+        "Merge PDF",
+        "Split PDF",
+        "Compress PDF",
+        "PDF to Word",
+        "PDF to PowerPoint",
+        "PDF to Excel",
+        "Word to PDF",
+        "PowerPoint to PDF",
+        "Excel to PDF",
+        "Edit PDF",
+        "PDF to JPG",
+        "JPG to PDF",
+        "Sign PDF",
+        "Watermark PDF",
+        "Rotate PDF",
+        "HTML to PDF",
+        "Unlock PDF",
+        "Protect PDF",
+        "Organize PDF",
+        "PDF to PDF/A",
+        "Repair PDF",
+        "Page numbers",
+        "Scan to PDF",
+        "OCR PDF",
+        "Compare PDF",
+        "Redact PDF",
+      ],
+      note:
+        "iLovePDF covers Office-format conversions (Excel, PowerPoint) and PDF/A archival that we don't. We cover jobs they don't list — PDF translation, metadata editing, margin cropping, N-up printing, invoice generation and text extraction — and every one of ours runs locally in your browser.",
+    },
+    updated: "2026-08-08",
   },
   {
     slug: "smallpdf",

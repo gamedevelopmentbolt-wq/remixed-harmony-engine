@@ -30,6 +30,7 @@ export function Footer() {
       links: [
         { label: t.footer.links.aiPrompts, href: "/ai-prompts" },
         { label: t.footer.links.alternatives, href: "/vs" },
+        { label: "vs iLovePDF", href: "/vs/ilovepdf" },
         { label: t.footer.links.rss, href: "/blog.rss.xml" },
       ],
     },
