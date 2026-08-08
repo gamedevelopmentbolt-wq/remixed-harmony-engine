@@ -34,6 +34,21 @@ export interface ComparisonTarget {
   whenWeWin: string[];
   /** Suggested EasyFileMagic tool slugs to CTA to */
   ctaToolSlugs: string[];
+  /**
+   * Optional side-by-side tool coverage for one category. Our side is derived
+   * from the real tool registry at render time; the competitor side lists the
+   * tool names they publicly advertise (names only — no invented numbers).
+   */
+  toolCoverage?: {
+    /** Heading label, e.g. "PDF tools" */
+    label: string;
+    /** Predicate key used to select our tools from the registry */
+    ourFilter: "pdf";
+    /** Competitor's publicly listed tool names in this category */
+    competitorTools: string[];
+    /** Honest note about the gaps in either direction */
+    note?: string;
+  };
   /** Optional last-updated ISO date (page shows month/year) */
   updated?: string;
 }
