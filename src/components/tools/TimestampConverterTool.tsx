@@ -9,12 +9,18 @@ function toIsoLocal(d: Date) {
 
 export function TimestampConverterTool() {
   const tool = tools.find((t) => t.slug === "timestamp-converter")!;
-  const [now, setNow] = useState(() => Date.now());
-  const [ts, setTs] = useState<string>(() => Math.floor(Date.now() / 1000).toString());
-  const [iso, setIso] = useState<string>(() => new Date().toISOString());
+  // Time-dependent values must not be computed during SSR/first render,
+  // otherwise the server markup never matches the client (hydration mismatch).
+  const [now, setNow] = useState(0);
+  const [ts, setTs] = useState<string>("");
+  const [iso, setIso] = useState<string>("");
   const [status, setStatus] = useState<ToolStatus>({ kind: "idle" });
 
   useEffect(() => {
+    const n = Date.now();
+    setNow(n);
+    setTs(Math.floor(n / 1000).toString());
+    setIso(new Date(n).toISOString());
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
   }, []);
