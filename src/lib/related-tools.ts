@@ -30,11 +30,39 @@ const CURATED: Record<string, string[]> = {
   "ocr": ["pdf-word-ocr", "pdf-to-text", "pdf-word", "image-to-pdf"],
 };
 
+const STOP = new Set([
+  "the","a","an","and","or","to","for","from","of","in","on","into","with","your",
+  "any","it","them","one","free","online","tool","file","files","browser","without",
+  "no","you","that","this","every","each","up","out","back","as","by","at","is","are",
+]);
+
+/** Lowercase content words from a tool's slug, name and description. */
+function tokens(t: Tool): Set<string> {
+  return new Set(
+    `${t.slug} ${t.name} ${t.description}`
+      .toLowerCase()
+      .split(/[^a-z0-9]+/)
+      .filter((w) => w.length > 2 && !STOP.has(w)),
+  );
+}
+
 /**
- * Related tools for a slug: curated picks first, topped up with same-category
- * tools, then any remaining tool so the strip is never short.
+ * Relevance of `candidate` to `self`: shared category plus keyword overlap on
+ * slug/name/description. Keeps suggestions topical (PDF editor -> sign/merge/
+ * watermark PDF) without hardcoding every pair.
  */
-export function getRelatedTools(slug: string, limit = 6): Tool[] {
+function score(self: Tool, selfTokens: Set<string>, candidate: Tool): number {
+  let s = candidate.category === self.category ? 3 : 0;
+  const ct = tokens(candidate);
+  for (const w of selfTokens) if (ct.has(w)) s += 2;
+  return s;
+}
+
+/**
+ * Related tools for a slug: curated picks first, then the highest-scoring
+ * category/keyword matches, then any remaining tool so the strip is never short.
+ */
+export function getRelatedTools(slug: string, limit = 4): Tool[] {
   const self = tools.find((t) => t.slug === slug);
   const bySlug = new Map(tools.map((t) => [t.slug, t]));
   const picked: Tool[] = [];
@@ -47,7 +75,17 @@ export function getRelatedTools(slug: string, limit = 6): Tool[] {
   };
 
   for (const s of CURATED[slug] ?? []) push(bySlug.get(s));
-  if (self) for (const t of tools) if (t.category === self.category) push(t);
+
+  if (self) {
+    const selfTokens = tokens(self);
+    const ranked = tools
+      .filter((t) => !seen.has(t.slug))
+      .map((t) => ({ t, s: score(self, selfTokens, t) }))
+      .filter((x) => x.s > 0)
+      .sort((a, b) => b.s - a.s || a.t.n.localeCompare(b.t.n));
+    for (const { t } of ranked) push(t);
+  }
+
   for (const t of tools) push(t);
 
   return picked;

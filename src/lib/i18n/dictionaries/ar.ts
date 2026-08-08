@@ -123,6 +123,12 @@ export const ar: Dict = {
     ogTitle: "EasyFileMagic — أدوات PDF والصور مجاناً عبر الإنترنت",
     ogDescription: "دمج PDF وضغط الصور وتحويل الملفات مجاناً، بدون تسجيل وداخل المتصفح.",
   },
+  relatedTools: {
+    eyebrow: "تابع العمل",
+    heading: "قد تحتاج أيضًا إلى",
+    browseAll: "تصفح جميع الأدوات",
+    open: "فتح",
+  },
   toolPage: {
     eyebrow: "أداة",
     notFoundTitle: "الأداة غير موجودة",

@@ -123,6 +123,12 @@ export const en = {
     ogTitle: "EasyFileMagic – {count}+ Free PDF, Image & AI Tools",
     ogDescription: "Free browser-based PDF and image tools. No signup, no watermarks, no installs.",
   },
+  relatedTools: {
+    eyebrow: "Keep going",
+    heading: "You might also need",
+    browseAll: "Browse all tools",
+    open: "Open",
+  },
   toolPage: {
     eyebrow: "TOOL",
     notFoundTitle: "Tool not found",
