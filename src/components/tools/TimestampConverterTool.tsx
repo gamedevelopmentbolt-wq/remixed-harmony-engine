@@ -37,6 +37,7 @@ export function TimestampConverterTool() {
 
   const onTsChange = (v: string) => {
     setTs(v);
+    if (!v.trim()) { setIso(""); setStatus({ kind: "idle" }); return; }
     const d = parseTs(v);
     if (d) { setIso(d.toISOString()); setStatus({ kind: "idle" }); }
     else setStatus({ kind: "error", message: "Not a valid timestamp." });
