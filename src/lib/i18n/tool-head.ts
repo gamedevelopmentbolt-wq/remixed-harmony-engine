@@ -82,7 +82,12 @@ const descriptionOverrides: Record<string, string> = {
 const templates: Record<Locale, { title: (n: string) => string; desc: (d: string) => string }> = {
   en: {
     title: (n) => `${n} — Free Online Tool · EasyFileMagic`,
-    desc: (d) => `${d} 100% free, runs in your browser, no signup.`,
+    // Avoid repeating "browser" when the tool's own copy already says it.
+    desc: (d) =>
+      /browser/i.test(d)
+        ? `${d} 100% free with no signup, no watermark and no daily limit.`
+        : `${d} 100% free, runs in your browser, no signup.`,
+
   },
   fr: {
     title: (n) => `${n} — outil en ligne gratuit · EasyFileMagic`,
