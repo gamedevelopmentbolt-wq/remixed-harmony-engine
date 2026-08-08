@@ -28,6 +28,7 @@ import { Route as ArIndexRouteImport } from './routes/ar.index'
 import { Route as AiPromptsIndexRouteImport } from './routes/ai-prompts.index'
 import { Route as VsCompetitorRouteImport } from './routes/vs.$competitor'
 import { Route as ToolsSlugRouteImport } from './routes/tools.$slug'
+import { Route as FreeToolsSplatRouteImport } from './routes/free-tools.$'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as AiPromptsSlugRouteImport } from './routes/ai-prompts.$slug'
 import { Route as FrToolsSlugRouteImport } from './routes/fr.tools.$slug'
@@ -129,6 +130,11 @@ const ToolsSlugRoute = ToolsSlugRouteImport.update({
   path: '/tools/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FreeToolsSplatRoute = FreeToolsSplatRouteImport.update({
+  id: '/free-tools/$',
+  path: '/free-tools/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/blog/$slug',
   path: '/blog/$slug',
@@ -169,6 +175,7 @@ export interface FileRoutesByFullPath {
   '/terms': typeof TermsRoute
   '/ai-prompts/$slug': typeof AiPromptsSlugRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/free-tools/$': typeof FreeToolsSplatRoute
   '/tools/$slug': typeof ToolsSlugRoute
   '/vs/$competitor': typeof VsCompetitorRoute
   '/ai-prompts/': typeof AiPromptsIndexRoute
@@ -195,6 +202,7 @@ export interface FileRoutesByTo {
   '/terms': typeof TermsRoute
   '/ai-prompts/$slug': typeof AiPromptsSlugRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/free-tools/$': typeof FreeToolsSplatRoute
   '/tools/$slug': typeof ToolsSlugRoute
   '/vs/$competitor': typeof VsCompetitorRoute
   '/ai-prompts': typeof AiPromptsIndexRoute
@@ -222,6 +230,7 @@ export interface FileRoutesById {
   '/terms': typeof TermsRoute
   '/ai-prompts/$slug': typeof AiPromptsSlugRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/free-tools/$': typeof FreeToolsSplatRoute
   '/tools/$slug': typeof ToolsSlugRoute
   '/vs/$competitor': typeof VsCompetitorRoute
   '/ai-prompts/': typeof AiPromptsIndexRoute
@@ -250,6 +259,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/ai-prompts/$slug'
     | '/blog/$slug'
+    | '/free-tools/$'
     | '/tools/$slug'
     | '/vs/$competitor'
     | '/ai-prompts/'
@@ -276,6 +286,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/ai-prompts/$slug'
     | '/blog/$slug'
+    | '/free-tools/$'
     | '/tools/$slug'
     | '/vs/$competitor'
     | '/ai-prompts'
@@ -302,6 +313,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/ai-prompts/$slug'
     | '/blog/$slug'
+    | '/free-tools/$'
     | '/tools/$slug'
     | '/vs/$competitor'
     | '/ai-prompts/'
@@ -329,6 +341,7 @@ export interface RootRouteChildren {
   TermsRoute: typeof TermsRoute
   AiPromptsSlugRoute: typeof AiPromptsSlugRoute
   BlogSlugRoute: typeof BlogSlugRoute
+  FreeToolsSplatRoute: typeof FreeToolsSplatRoute
   ToolsSlugRoute: typeof ToolsSlugRoute
   VsCompetitorRoute: typeof VsCompetitorRoute
   AiPromptsIndexRoute: typeof AiPromptsIndexRoute
@@ -477,6 +490,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ToolsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/free-tools/$': {
+      id: '/free-tools/$'
+      path: '/free-tools/$'
+      fullPath: '/free-tools/$'
+      preLoaderRoute: typeof FreeToolsSplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/$slug': {
       id: '/blog/$slug'
       path: '/blog/$slug'
@@ -529,6 +549,7 @@ const rootRouteChildren: RootRouteChildren = {
   TermsRoute: TermsRoute,
   AiPromptsSlugRoute: AiPromptsSlugRoute,
   BlogSlugRoute: BlogSlugRoute,
+  FreeToolsSplatRoute: FreeToolsSplatRoute,
   ToolsSlugRoute: ToolsSlugRoute,
   VsCompetitorRoute: VsCompetitorRoute,
   AiPromptsIndexRoute: AiPromptsIndexRoute,
