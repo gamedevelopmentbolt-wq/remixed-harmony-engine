@@ -193,6 +193,55 @@ function ComparisonPage() {
           </div>
         </section>
 
+        {/* Tool-by-tool coverage */}
+        {c.toolCoverage && (
+          <section className="border-b border-line">
+            <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
+              <h2 className="font-mono text-2xl font-bold text-ink">
+                Which {c.toolCoverage.label} each side offers
+              </h2>
+              <div className="mt-6 grid gap-6 md:grid-cols-2">
+                <div className="rounded-md border border-line bg-white p-5">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-signal">
+                    EasyFileMagic · {ourCoverageTools.length} tools
+                  </p>
+                  <ul className="mt-3 flex flex-wrap gap-2">
+                    {ourCoverageTools.map((t) => (
+                      <li key={t.slug}>
+                        <Link
+                          to="/tools/$slug"
+                          params={{ slug: t.slug }}
+                          className="inline-block rounded-full border border-line px-3 py-1 text-xs text-graphite hover:border-ink hover:text-ink"
+                        >
+                          {t.name}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="rounded-md border border-line bg-white p-5">
+                  <p className="font-mono text-[10px] uppercase tracking-widest text-graphite/60">
+                    {c.competitorName} · {c.toolCoverage.competitorTools.length} tools listed
+                  </p>
+                  <ul className="mt-3 flex flex-wrap gap-2">
+                    {c.toolCoverage.competitorTools.map((name) => (
+                      <li
+                        key={name}
+                        className="inline-block rounded-full border border-line px-3 py-1 text-xs text-graphite/80"
+                      >
+                        {name}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              {c.toolCoverage.note && (
+                <p className="mt-5 text-sm leading-relaxed text-graphite/90">{c.toolCoverage.note}</p>
+              )}
+            </div>
+          </section>
+        )}
+
         {/* Other comparisons */}
         <section className="border-b border-line bg-paper-2/40">
           <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:px-8">
