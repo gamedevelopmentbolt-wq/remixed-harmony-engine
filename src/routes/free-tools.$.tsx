@@ -1,5 +1,5 @@
 import { createFileRoute, redirect } from "@tanstack/react-router";
-import { TOOLS } from "@/lib/tools";
+import { tools, type Tool } from "@/lib/tools";
 
 /**
  * Legacy /free-tools/* URLs permanently redirect to their canonical
@@ -16,7 +16,7 @@ function resolveToolSlug(rest: string): string | undefined {
   if (!raw) return undefined;
   if (LEGACY_MAP[raw]) return LEGACY_MAP[raw];
 
-  const slugs = new Set(TOOLS.map((t) => t.slug));
+  const slugs = new Set(tools.map((t: Tool) => t.slug));
   if (slugs.has(raw)) return raw;
 
   // Strip common marketing affixes: "how-to-…-free", "best-…-online"
@@ -25,7 +25,7 @@ function resolveToolSlug(rest: string): string | undefined {
     .replace(/-(free|online|tool|guide)$/, "");
   if (slugs.has(stripped)) return stripped;
 
-  return TOOLS.find((t) => stripped.includes(t.slug) || t.slug.includes(stripped))?.slug;
+  return tools.find((t: Tool) => stripped.includes(t.slug) || t.slug.includes(stripped))?.slug;
 }
 
 export const Route = createFileRoute("/free-tools/$")({
