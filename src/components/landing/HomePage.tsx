@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { FeaturedTools } from "@/components/landing/FeaturedTools";
+import { ToolOfTheDay } from "@/components/landing/ToolOfTheDay";
 import { CategoryGrid } from "@/components/landing/CategoryGrid";
 import { ToolGrid } from "@/components/landing/ToolGrid";
 import { WhySection } from "@/components/landing/WhySection";
