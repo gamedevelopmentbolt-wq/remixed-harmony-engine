@@ -18,7 +18,7 @@ import {
 import { tools, categories, type ToolCategory } from "@/lib/tools";
 import { fmt, useI18n } from "@/lib/i18n";
 
-const iconMap: Record<string, LucideIcon> = {
+export const iconMap: Record<string, LucideIcon> = {
   Files, Scissors, Minimize2, FileImage, FileType2,
   ImageDown, Repeat, QrCode, ArrowLeftRight, Archive,
   ScanText, FileText, Eraser, PenLine, Lock, FileVideo,
