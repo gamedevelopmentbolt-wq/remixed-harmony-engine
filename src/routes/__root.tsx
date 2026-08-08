@@ -7,7 +7,9 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { Search } from "lucide-react";
+import { tools } from "@/lib/tools";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
@@ -19,6 +21,80 @@ import {
   localePath,
 } from "@/lib/i18n";
 
+/** Popover that appears when a query matches tool names/keywords. */
+function ToolSearch({ onNavigate }: { onNavigate?: () => void }) {
+  const [query, setQuery] = useState("");
+  const trimmed = query.trim().toLowerCase();
+
+  const matches = useMemo(() => {
+    if (!trimmed) return [];
+    const terms = trimmed.split(/\s+/);
+    return tools
+      .filter((tool) =>
+        terms.every((t) =>
+          `${tool.name} ${tool.slug} ${tool.category} ${tool.description}`.toLowerCase().includes(t),
+        ),
+      )
+      .slice(0, 6);
+  }, [trimmed]);
+
+  const go = (slug: string) => {
+    setQuery("");
+    onNavigate?.();
+    // Use a fresh client-side navigation so the URL updates without a full reload.
+    window.location.assign(`/tools/${slug}`);
+  };
+
+  return (
+    <div className="relative">
+      <label className="relative block">
+        <span className="sr-only">Search tools</span>
+        <Search aria-hidden className="pointer-events-none absolute start-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-graphite/50" />
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" && matches.length > 0) go(matches[0].slug);
+            if (e.key === "Escape") setQuery("");
+          }}
+          placeholder="Search 100+ tools…"
+          aria-label="Search tools"
+          className="h-12 w-full rounded-lg border border-line bg-white ps-11 pe-4 font-sans text-base text-graphite placeholder:text-graphite/40 shadow-sm focus:border-ink focus:outline-none"
+        />
+      </label>
+
+      {trimmed && (
+        <div
+          role="listbox"
+          aria-label="Matching tools"
+          className="absolute z-20 mt-2 w-full overflow-hidden rounded-lg border border-line bg-white shadow-lg"
+        >
+          {matches.length === 0 ? (
+            <p className="px-4 py-3 font-mono text-sm text-graphite/70">
+              No tool found — try “PDF”, “image” or “convert”.
+            </p>
+          ) : (
+            matches.map((tool) => (
+              <button
+                key={tool.slug}
+                type="button"
+                role="option"
+                aria-selected
+                onClick={() => go(tool.slug)}
+                className="flex w-full items-center justify-between gap-3 border-b border-line px-4 py-3 text-start last:border-b-0 hover:bg-paper/60"
+              >
+                <span className="text-sm font-medium text-ink">{tool.name}</span>
+                <span className="font-mono text-[11px] uppercase tracking-wider text-graphite/60">{tool.category}</span>
+              </button>
+            ))
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function NotFoundComponent() {
   return (
     <div className="min-h-screen bg-paper text-graphite">
@@ -28,6 +104,10 @@ function NotFoundComponent() {
         <p className="mt-4 text-lg text-graphite/85">
           That URL doesn't map to anything on EasyFileMagic — but you're probably looking for one of these.
         </p>
+
+        <div className="mt-8 max-w-xl">
+          <ToolSearch />
+        </div>
 
         <h2 className="mt-10 font-mono text-sm font-bold uppercase tracking-widest text-ink">Popular tools</h2>
         <ul className="mt-4 grid gap-2 sm:grid-cols-2">
