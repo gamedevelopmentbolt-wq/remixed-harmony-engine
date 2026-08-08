@@ -1,128 +1,57 @@
 # EasyFileMagic
 
-> Free, no-signup, browser-based file tools — PDF, image, OCR, audio/video, data — that run entirely on the user's device.
+> Free, no-signup, browser-based file tools — PDF, image, OCR, audio/video, data & AI — that run entirely on the user's device.
 
-EasyFileMagic is a collection of 70 web-based utilities. Every tool runs client-side in the user's browser using JavaScript and WebAssembly, so files are never uploaded to a server. The site is free, requires no account, and adds no watermarks.
+EasyFileMagic is a collection of 100+ free online utilities that process files entirely in the browser using JavaScript and WebAssembly. Nothing is uploaded to a server, so there is no account, no watermark, no daily limit, and no file-size cap beyond the device's memory. The main tools page lists every utility by category.
 
 ## Pages
 
-- [Home](/): Landing page with searchable list of all 70 tools by category.
+- [All 104 tools](/tools): Every utility by category, with search.
+- [Blog](/blog): Practical guides on file conversion, PDF editing, image formats, privacy, and tool usage.
 - [About](/about): How the site works, why it is free, and its privacy model.
-- [Blog](/blog): Articles about file conversion, privacy, and tool usage.
 - [Contact](/contact): Get in touch with the EasyFileMagic team.
 - [Privacy](/privacy): Privacy policy — files never leave your device.
 - [Terms](/terms): Terms of use.
 
 ## PDF tools
 
-- [Merge PDF](/tools/merge-pdf): Combine multiple PDF files into one, in order.
-- [PDF Editor](/tools/pdf-editor): Add text, images, highlights, drawings, shapes and signatures to any PDF — free, unlike iLovePDF & Smallpdf.
-- [Split PDF](/tools/split-pdf): Break a PDF into single-page files, delivered as a ZIP.
+- [Merge PDF](/tools/merge-pdf): Combine multiple PDFs into one, preserving order.
+- [PDF Editor](/tools/pdf-editor): Add text, images, highlights, drawings, shapes and signatures.
 - [Compress PDF](/tools/compress-pdf): Shrink a PDF's file size for email or upload.
-- [Sign PDF](/tools/sign-pdf): Draw or type a signature and place it on any page of a PDF.
-- [Protect / Unlock PDF](/tools/protect-pdf): Add a password to a PDF or remove one you already know.
-- [Rotate & Reorder PDF](/tools/rotate-pdf): Rotate pages 90°, reorder them by drag, or delete pages you don't need.
-- [Watermark PDF](/tools/watermark-pdf): Stamp a text or image watermark across every page of a PDF.
-- [Add Page Numbers](/tools/page-numbers-pdf): Insert page numbers in any corner, with format and starting-number options.
-- [Extract Images from PDF](/tools/extract-images-pdf): Pull every embedded image out of a PDF and download them as a ZIP.
-- [PDF Translator](/tools/pdf-translator): Translate a PDF into 15+ languages and download the result as a PDF or text file.
+- [Sign PDF](/tools/sign-pdf): Draw or type a signature and place it on any page.
+- [PDF ⇄ Word](/tools/pdf-word): Convert PDFs to editable Word files (and Word to PDF).
+- See all PDF tools on the [tools page](/tools).
 
 ## Image tools
 
-- [Compress Image](/tools/compress-image): Reduce JPG/PNG size while keeping it sharp.
 - [Image Converter](/tools/image-converter): Switch images between JPG, PNG and WEBP.
-- [Remove Background](/tools/remove-background): Cut a subject out of a photo — clean transparent PNG.
-- [Resize & Crop Image](/tools/image-resize): Resize to exact pixel dimensions or crop with a visual selection.
-- [HEIC to JPG / PNG](/tools/heic-to-jpg): Convert Apple HEIC photos to JPG or PNG, straight in your browser.
-- [Image Color Palette](/tools/color-palette): Extract the dominant colors from any image as click-to-copy hex codes.
-- [Meme Generator](/tools/meme-generator): Add classic top / bottom captions to any image and download the meme as a PNG.
-- [CNIC / Passport Photo Maker](/tools/photo-id-maker): NADRA CNIC, Pakistani passport, UK & US visa photo sizes — auto crop, optional white background, JPG/PNG.
-- [Bulk Image Compressor & Converter](/tools/bulk-image-compress): Batch compress and convert many images to WebP, JPG, PNG or AVIF — download all as one ZIP.
-- [Product Photo Background Remover](/tools/product-bg-remover): Remove backgrounds from product photos for Amazon, Shopify, Daraz and eBay — white or transparent, 2000px export, no signup.
-- [Image Watermark (Add & Remove)](/tools/watermark-image): Add a text or logo watermark to one or many images, or remove a simple watermark with a brush-mask fill — batch export as ZIP.
-- [Image EXIF / Metadata Remover](/tools/exif-remover): Strip EXIF, GPS and camera metadata from JPG, PNG or WEBP photos — protect your privacy before sharing.
-- [Image ⇄ Base64](/tools/image-to-base64): Encode an image to a base64 data URL for CSS/HTML, or decode base64 back into a downloadable image.
+- [Compress Image](/tools/compress-image): Reduce JPG/PNG file size while keeping it sharp.
+- [Remove Background](/tools/remove-background): Cut a subject out of a photo to a transparent PNG.
+- [Resize & Crop Image](/tools/image-resize): Resize to exact pixel dimensions or crop visually.
+- [HEIC to JPG](/tools/heic-to-jpg): Convert Apple HEIC photos to JPG or PNG in-browser.
+- See all image tools on the [tools page](/tools).
 
 ## Convert tools
 
 - [PDF to JPG](/tools/pdf-to-jpg): Turn every page of a PDF into a JPG image.
 - [Image to PDF](/tools/image-to-pdf): Combine JPG or PNG photos into one PDF.
-- [OCR (Image/PDF → Text)](/tools/ocr): Pull real, selectable text out of images and PDF pages.
-- [PDF ⇄ Word](/tools/pdf-word): Convert PDFs to editable Word files and Word docs to PDF.
-- [Audio / Video Converter](/tools/media-convert): Convert MP4, WebM, MP3 and WAV right in your browser.
-- [PDF to PowerPoint](/tools/pdf-to-pptx): Turn each PDF page into a slide in a downloadable .pptx file.
-- [Text / Markdown to PDF](/tools/text-to-pdf): Render plain text or Markdown into a clean, downloadable PDF.
-- [Video to GIF](/tools/video-to-gif): Trim a short video clip and convert it to an optimized GIF right in your browser.
-- [PDF to Word (Urdu / Arabic OCR)](/tools/pdf-word-ocr): Convert PDFs — including scanned Urdu, Arabic and English pages — into an editable Word .docx file.
-- [Markdown to HTML](/tools/markdown-to-html): Turn Markdown into clean HTML with live preview — GitHub-flavored syntax supported.
-- [JSON ⇄ YAML Converter](/tools/json-yaml): Convert JSON to YAML or YAML back to JSON — pretty output, in-browser, with error location.
-- [HTML to Markdown](/tools/html-to-markdown): Turn any HTML snippet into clean GitHub-flavored Markdown — live preview, copy or download .md.
+- [OCR (Image/PDF → Text)](/tools/ocr): Extract selectable text from images and scanned PDF pages.
+- [Audio / Video Converter](/tools/media-convert): Convert MP4, WebM, MP3 and WAV in-browser.
+- [Video to GIF](/tools/video-to-gif): Trim a clip and convert it to an optimized GIF.
+- See all convert tools on the [tools page](/tools).
 
 ## Data & Utility tools
 
 - [QR Code Generator](/tools/qr-code-generator): Turn a link or text into a downloadable QR code.
-- [CSV ⇄ JSON](/tools/csv-json): Convert CSV to JSON or JSON back to CSV.
+- [CSV ⇄ JSON](/tools/csv-json): Convert CSV to JSON or back.
 - [Zip Files](/tools/zip-files): Bundle multiple files into one .zip archive.
-- [File Hash / Checksum](/tools/file-hash): MD5, SHA-1 and SHA-256 checksums for any file — computed locally.
-- [Barcode Generator](/tools/barcode-generator): Generate CODE128, EAN, UPC and ITF barcodes as PNG or SVG.
-- [JSON Formatter & Validator](/tools/json-format): Pretty-print or minify JSON, validate syntax with clear error location, and copy or download.
-- [Base64 Encode / Decode](/tools/base64): Encode text or any file to Base64, or decode Base64 back into text or a downloadable file.
-- [Salary Slip / Invoice Generator](/tools/salary-invoice-pk): PKR salary slips and invoices for Pakistani businesses — logo, line items, tax, deductions, PDF export.
-- [Age Calculator with Hijri Date](/tools/age-calculator-hijri): Exact age in years, months and days plus your Hijri (Islamic) birth date and Hijri age.
-- [Resume / CV Builder (ATS)](/tools/resume-builder): Clean, ATS-friendly CV templates for the Pakistan job market — form-based editor, one-click PDF.
-- [File Size Reducer (WhatsApp / Gmail)](/tools/file-size-reducer): Shrink images to fit under WhatsApp (16 MB), Gmail (25 MB) or any custom limit you choose.
-- [QR Code — vCard / WiFi / Payment](/tools/qr-vcard-wifi): Generate QR codes for contact cards, WiFi networks or payment info with live preview, PNG and SVG download.
-- [Currency Converter](/tools/currency-converter): Convert PKR, USD, EUR, AED and GBP with live daily exchange rates — updated automatically, works offline after first load.
-- [Unit Converter (Metric / Imperial)](/tools/unit-converter): Convert length, weight, temperature, volume, area and speed between metric and imperial units instantly in your browser.
-- [Digital Signature Maker](/tools/signature-maker): Draw or type your signature and download a clean transparent PNG or SVG — ready to paste into any PDF, Word or email.
-- [QR Code Reader](/tools/qr-scanner): Decode any QR code from an image or screenshot — locally in your browser, no upload.
-- [Word & Character Counter](/tools/word-counter): Live word, character, sentence, paragraph and reading-time counts for any text.
-- [Case Converter](/tools/case-converter): Convert text to UPPER, lower, Title, Sentence, camelCase, snake_case, kebab-case and more.
-- [Color Converter (HEX ⇄ RGB ⇄ HSL)](/tools/color-converter): Pick any color and see it in HEX, RGB and HSL — copy each format with one click.
-- [Password Generator](/tools/password-generator): Strong, cryptographically-random passwords — pick length, character sets and ambiguous-character exclusion.
-- [URL Encoder / Decoder](/tools/url-encode): Percent-encode or decode URL components and full URLs — instantly, offline.
-- [Unix Timestamp Converter](/tools/timestamp-converter): Convert Unix timestamps (seconds or ms) to and from ISO 8601 and human-readable dates.
-- [Lorem Ipsum Generator](/tools/lorem-ipsum): Generate paragraphs, sentences or words of placeholder text for mockups and design work.
-- [Text Diff Checker](/tools/text-diff): Compare two blocks of text and see additions, removals and unchanged lines side-by-side.
-- [UUID Generator](/tools/uuid-generator): Generate up to 1000 RFC 4122 v4 UUIDs at once — copy, bulk-copy or download as .txt.
-- [Regex Tester](/tools/regex-tester): Test JavaScript regular expressions live — highlighted matches, capture groups and replacement preview.
-- [Line Sort & Dedupe](/tools/line-tools): Sort, deduplicate, trim and reverse lines of text — clean any list in one paste.
-- [Slugify (Text to URL Slug)](/tools/slugify): Convert titles or phrases into clean, URL-safe slugs — hyphen, underscore, ASCII options.
-- [JWT Decoder](/tools/jwt-decoder): Decode a JSON Web Token's header and payload in your browser — signatures shown but never sent to a server.
-- [Number Base Converter](/tools/number-base): Convert numbers between binary, octal, decimal and hex — BigInt-powered, works with huge values.
-- [Random Number Generator](/tools/random-number): Generate uniform, unbiased random integers in any range — up to 10,000 at once, unique or with repeats.
-- [BMI Calculator](/tools/bmi-calculator): Calculate Body Mass Index in metric or imperial units with the WHO category label.
-- [Loan / EMI Calculator](/tools/loan-calculator): Compute monthly EMI, total interest and a 12-month amortization schedule for any loan.
-- [Text Repeater & Reverser](/tools/text-repeat): Repeat any text a chosen number of times with a custom separator — optionally reverse each copy.
+- [Unix Timestamp Converter](/tools/timestamp-converter): Convert Unix timestamps to and from ISO 8601 dates.
+- [Password Generator](/tools/password-generator): Strong, cryptographically-random passwords.
+- See all data & utility tools on the [tools page](/tools).
 
-## Blog
+## AI tools
 
-- [How to compress a PDF without losing quality](/blog/how-to-compress-a-pdf-without-losing-quality)
-- [Free file conversion tools you actually need in 2026](/blog/free-file-conversion-tools-you-actually-need-2026)
-
-## New tools (2026-07)
-- /tools/pdf-to-text — extract selectable text from a PDF to .txt (client-side pdf.js)
-- /tools/pdf-organize — reorder/duplicate/delete pages with thumbnails (pdf-lib)
-- /tools/pdf-crop — trim margins on every page
-- /tools/pdf-metadata-editor — edit title/author/subject/keywords of a PDF
-- /tools/image-crop — crop with preset ratios or freeform
-- /tools/image-flip-rotate — flip and rotate, batch to ZIP
-- /tools/svg-to-png — rasterize SVG at custom resolution
-- /tools/favicon-generator — full favicon pack (ICO + PNG sizes + manifest)
-- /tools/epoch-diff — duration between two dates/timestamps
-- /tools/hash-text — MD5/SHA-1/SHA-256/SHA-512 via Web Crypto
-
-## International SEO
-Top tools carry French, German and Arabic on-page keyword blocks plus hreflang alternates at /tools/{slug}?lang=fr|de|ar. Arabic renders with dir="rtl".
-
-## New tools (2026-07-26)
-- [PDF to CSV](/tools/pdf-to-csv): Extract tables from a text-based PDF into a spreadsheet-friendly CSV — rows grouped by position.
-- [PDF Redact](/tools/pdf-redact): Enter words or phrases and the tool draws black rectangles over every match — download a redacted PDF, in-browser.
-- [Image Upscaler](/tools/image-upscaler): Enlarge photos 2×, 3× or 4× with high-quality multi-pass scaling.
-- [Audio Trimmer](/tools/audio-trimmer): Cut a section out of an MP3, WAV, M4A, OGG or WebM file — exports a clean WAV.
-- [JSON to SQL](/tools/json-to-sql): Turn a JSON array into CREATE TABLE + INSERT statements with auto-inferred column types.
-- [HTML Minifier](/tools/html-minifier): Strip comments and whitespace from HTML with a live bytes-saved counter.
-- [CSS Beautifier / Unminifier](/tools/css-beautify): Turn minified or messy CSS into cleanly indented, one-declaration-per-line source.
-- [Mock Data Generator](/tools/mock-data): Generate up to 10,000 rows of realistic fake data as JSON or CSV.
-- [SQL Formatter](/tools/sql-formatter): Format SQL queries with uppercase keywords and one clause per line.
-- [YAML Formatter & Validator](/tools/yaml-formatter): Parse, validate and re-dump YAML with clean 2-space indentation.
+- [AI Text Summarizer](/tools/ai-summarizer): Condense long text into a short summary.
+- [AI Speech-to-Text](/tools/ai-transcribe): Transcribe audio with Whisper, client-side.
+- [AI Image Caption Generator](/tools/ai-image-caption): Write captions for images.
+- See all AI tools on the [tools page](/tools).
