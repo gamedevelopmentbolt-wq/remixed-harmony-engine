@@ -123,6 +123,12 @@ export const es: Dict = {
     ogTitle: "EasyFileMagic — Herramientas PDF e imagen gratis online",
     ogDescription: "Unir PDF, comprimir imágenes y convertir archivos gratis, sin registro y desde el navegador.",
   },
+  relatedTools: {
+    eyebrow: "Sigue adelante",
+    heading: "Quizá también necesites",
+    browseAll: "Ver todas las herramientas",
+    open: "Abrir",
+  },
   toolPage: {
     eyebrow: "HERRAMIENTA",
     notFoundTitle: "Herramienta no encontrada",
