@@ -26,6 +26,7 @@ export function TimestampConverterTool() {
   }, []);
 
   const parseTs = (raw: string) => {
+    if (!raw.trim()) return null;
     const n = Number(raw);
     if (!Number.isFinite(n)) return null;
     // If < 10^12, treat as seconds
