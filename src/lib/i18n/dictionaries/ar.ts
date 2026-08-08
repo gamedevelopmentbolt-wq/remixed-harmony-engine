@@ -43,6 +43,9 @@ export const ar: Dict = {
       DataUtility: { name: "بيانات وأدوات مساعدة", desc: "توليد رمز QR، تحويل CSV/JSON، كلمات مرور، تعابير نمطية وملفات ZIP." },
     },
   },
+  toolOfTheDay: {
+    label: "أداة اليوم",
+  },
   toolGrid: {
     section: "القسم · 02",
     heading: "صندوق الأدوات الكامل",
