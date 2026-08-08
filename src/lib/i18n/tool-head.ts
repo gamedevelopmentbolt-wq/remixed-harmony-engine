@@ -137,16 +137,29 @@ export function toolHead(locale: Locale, slug: string) {
       type: "application/ld+json",
       children: JSON.stringify({
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
+        // WebApplication is a subtype of SoftwareApplication; declaring both
+        // keeps the generic software rich result while describing it accurately.
+        "@type": ["SoftwareApplication", "WebApplication"],
         name: tool.name,
         description,
         inLanguage: LOCALE_META[locale].tag,
         applicationCategory: "UtilitiesApplication",
-        operatingSystem: "Any (browser-based)",
-        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+        applicationSubCategory: tool.category,
+        operatingSystem: "Any",
+        browserRequirements: "Requires a modern browser with JavaScript enabled",
+        isAccessibleForFree: true,
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "USD",
+          availability: "https://schema.org/InStock",
+        },
+        // No aggregateRating: we do not collect real review data, and
+        // fabricated ratings are a structured-data policy violation.
         url,
       }),
     },
+
     {
       type: "application/ld+json",
       children: JSON.stringify({
