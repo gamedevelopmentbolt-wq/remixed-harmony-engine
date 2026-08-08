@@ -29,6 +29,7 @@ import { Route as AiPromptsIndexRouteImport } from './routes/ai-prompts.index'
 import { Route as VsCompetitorRouteImport } from './routes/vs.$competitor'
 import { Route as ToolsSlugRouteImport } from './routes/tools.$slug'
 import { Route as FreeToolsSplatRouteImport } from './routes/free-tools.$'
+import { Route as CompareSplatRouteImport } from './routes/compare.$'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as AiPromptsSlugRouteImport } from './routes/ai-prompts.$slug'
 import { Route as FrToolsSlugRouteImport } from './routes/fr.tools.$slug'
@@ -135,6 +136,11 @@ const FreeToolsSplatRoute = FreeToolsSplatRouteImport.update({
   path: '/free-tools/$',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CompareSplatRoute = CompareSplatRouteImport.update({
+  id: '/compare/$',
+  path: '/compare/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BlogSlugRoute = BlogSlugRouteImport.update({
   id: '/blog/$slug',
   path: '/blog/$slug',
@@ -175,6 +181,7 @@ export interface FileRoutesByFullPath {
   '/terms': typeof TermsRoute
   '/ai-prompts/$slug': typeof AiPromptsSlugRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/compare/$': typeof CompareSplatRoute
   '/free-tools/$': typeof FreeToolsSplatRoute
   '/tools/$slug': typeof ToolsSlugRoute
   '/vs/$competitor': typeof VsCompetitorRoute
@@ -202,6 +209,7 @@ export interface FileRoutesByTo {
   '/terms': typeof TermsRoute
   '/ai-prompts/$slug': typeof AiPromptsSlugRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/compare/$': typeof CompareSplatRoute
   '/free-tools/$': typeof FreeToolsSplatRoute
   '/tools/$slug': typeof ToolsSlugRoute
   '/vs/$competitor': typeof VsCompetitorRoute
@@ -230,6 +238,7 @@ export interface FileRoutesById {
   '/terms': typeof TermsRoute
   '/ai-prompts/$slug': typeof AiPromptsSlugRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/compare/$': typeof CompareSplatRoute
   '/free-tools/$': typeof FreeToolsSplatRoute
   '/tools/$slug': typeof ToolsSlugRoute
   '/vs/$competitor': typeof VsCompetitorRoute
@@ -259,6 +268,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/ai-prompts/$slug'
     | '/blog/$slug'
+    | '/compare/$'
     | '/free-tools/$'
     | '/tools/$slug'
     | '/vs/$competitor'
@@ -286,6 +296,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/ai-prompts/$slug'
     | '/blog/$slug'
+    | '/compare/$'
     | '/free-tools/$'
     | '/tools/$slug'
     | '/vs/$competitor'
@@ -313,6 +324,7 @@ export interface FileRouteTypes {
     | '/terms'
     | '/ai-prompts/$slug'
     | '/blog/$slug'
+    | '/compare/$'
     | '/free-tools/$'
     | '/tools/$slug'
     | '/vs/$competitor'
@@ -341,6 +353,7 @@ export interface RootRouteChildren {
   TermsRoute: typeof TermsRoute
   AiPromptsSlugRoute: typeof AiPromptsSlugRoute
   BlogSlugRoute: typeof BlogSlugRoute
+  CompareSplatRoute: typeof CompareSplatRoute
   FreeToolsSplatRoute: typeof FreeToolsSplatRoute
   ToolsSlugRoute: typeof ToolsSlugRoute
   VsCompetitorRoute: typeof VsCompetitorRoute
@@ -497,6 +510,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FreeToolsSplatRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/compare/$': {
+      id: '/compare/$'
+      path: '/compare/$'
+      fullPath: '/compare/$'
+      preLoaderRoute: typeof CompareSplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/$slug': {
       id: '/blog/$slug'
       path: '/blog/$slug'
@@ -549,6 +569,7 @@ const rootRouteChildren: RootRouteChildren = {
   TermsRoute: TermsRoute,
   AiPromptsSlugRoute: AiPromptsSlugRoute,
   BlogSlugRoute: BlogSlugRoute,
+  CompareSplatRoute: CompareSplatRoute,
   FreeToolsSplatRoute: FreeToolsSplatRoute,
   ToolsSlugRoute: ToolsSlugRoute,
   VsCompetitorRoute: VsCompetitorRoute,
