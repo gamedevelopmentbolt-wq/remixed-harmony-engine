@@ -7,6 +7,8 @@ export interface BlogPost {
   /** 1–2 sentence direct answer surfaced near the top of the page for AI answer engines. */
   summary?: string;
   date: string; // ISO
+  /** ISO date of the last substantive edit. Falls back to `date` when omitted. */
+  updated?: string;
   readMinutes: number;
   tags: string[];
   /** ISO language code. Defaults to "en" when omitted. */
