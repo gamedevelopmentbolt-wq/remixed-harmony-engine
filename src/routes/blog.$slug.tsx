@@ -106,6 +106,7 @@ export const Route = createFileRoute("/blog/$slug")({
         { property: "og:site_name", content: "EasyFileMagic" },
         { property: "og:locale", content: localeMap[lang] },
         { property: "article:published_time", content: post.date },
+        { property: "article:modified_time", content: post.updated ?? post.date },
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: post.title },
         { name: "twitter:description", content: post.description },
