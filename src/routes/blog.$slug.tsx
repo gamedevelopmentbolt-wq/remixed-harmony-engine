@@ -40,7 +40,7 @@ export const Route = createFileRoute("/blog/$slug")({
       inLanguage: lang,
       image: abs(post.hero.src),
       datePublished: post.date,
-      dateModified: post.date,
+      dateModified: post.updated ?? post.date,
       author: { "@type": "Organization", name: "EasyFileMagic" },
       publisher: { "@type": "Organization", name: "EasyFileMagic" },
       mainEntityOfPage: url,
