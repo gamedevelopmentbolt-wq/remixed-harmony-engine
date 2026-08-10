@@ -1,4 +1,4 @@
-export const SITE_URL = "https://easyfilemagic.com";
+export const SITE_URL = "https://www.easyfilemagic.com";
 export const abs = (path: string) => `${SITE_URL}${path.startsWith("/") ? path : `/${path}`}`;
 
 /** Branded fallback share card used by pages without their own artwork. */
