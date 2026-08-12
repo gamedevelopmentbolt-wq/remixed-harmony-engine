@@ -38,6 +38,170 @@ export type BlogBlock =
 
 export const posts: BlogPost[] = [
   {
+    slug: "json-formatter-validator-guide",
+    title: "JSON Formatter & Validator: Free Online Guide (2026)",
+    description:
+      "What JSON formatting and validation actually do, the syntax errors they catch, and a step-by-step walkthrough of formatting, minifying and validating JSON in your browser.",
+    summary:
+      "A JSON formatter re-indents machine-written JSON so humans can read it; a validator parses it and tells you exactly where the syntax breaks. EasyFileMagic's JSON Formatter does both in your browser — it pretty-prints or minifies, and reports invalid JSON with the offending line and column. Nothing is uploaded.",
+    date: "2026-08-12",
+    readMinutes: 8,
+    tags: ["Developer", "How-to", "Data"],
+    hero: {
+      src: "/blog/blog-json-format-hero.jpg",
+      alt: "An indented JSON document in a code pane with a syntax error highlighted on one line.",
+    },
+    body: [
+      { type: "p", html: 'JSON is written by machines and read by people, and those two audiences want opposite things. A server wants the smallest possible payload — one line, no spaces. You want to see the shape of the object: which keys are nested where, whether that array has three items or three hundred, and why the parser is refusing to accept it. A formatter and a validator solve both halves of that problem, and our <a href="/tools/json-format" class="text-signal underline underline-offset-2">JSON Formatter &amp; Validator</a> does them in the same pass.' },
+
+      { type: "h2", id: "what-it-does", text: "What formatting and validating actually do" },
+      { type: "p", html: "Two distinct operations, usually bundled into one tool:" },
+      { type: "ul", items: [
+        "<strong>Validating</strong> — the text is parsed against the JSON grammar. Either it parses, in which case it is valid JSON, or it fails at a specific character and you get an error pointing at that spot.",
+        "<strong>Formatting (pretty-printing)</strong> — the parsed structure is written back out with consistent indentation and line breaks, so nesting is visible at a glance.",
+        "<strong>Minifying</strong> — the same structure written back with all optional whitespace stripped, which is what you want before shipping a payload, embedding JSON in a config value, or measuring real transfer size.",
+      ] },
+      { type: "p", html: "Because formatting requires a successful parse first, a tool that formats your input has implicitly validated it. If it will not format, the JSON is broken — and the error message is the useful output." },
+
+      { type: "h2", id: "why", text: "When you actually need it" },
+      { type: "ul", items: [
+        "<strong>Reading an API response.</strong> A one-line response body from <code>curl</code> or a webhook log becomes navigable the moment it is indented.",
+        "<strong>Debugging a failing request.</strong> Before blaming the API, confirm the body you are sending is valid JSON at all — a trailing comma is a 400 waiting to happen.",
+        "<strong>Reviewing config files.</strong> <code>package.json</code>, <code>tsconfig.json</code>, CI manifests and cloud policy documents are all JSON, and all easier to diff when consistently indented.",
+        "<strong>Shrinking a payload.</strong> Minifying before you embed JSON in an environment variable, a query string or a database column keeps it compact.",
+        "<strong>Inspecting exported data.</strong> Analytics exports, database dumps and log bundles frequently arrive as dense JSON files.",
+      ] },
+
+      { type: "h2", id: "errors", text: "Common errors a validator catches" },
+      { type: "p", html: "JSON is a deliberately small grammar, so the mistakes are predictable. These are the ones that account for nearly every parse failure:" },
+      {
+        type: "table",
+        headers: ["Mistake", "Example", "Why it fails"],
+        rows: [
+          ["Trailing comma", '<code>{"a": 1, "b": 2,}</code>', "Legal in JavaScript and in JSON5, but not in JSON. A value must follow every comma."],
+          ["Single quotes", "<code>{'a': 1}</code>", "JSON strings and keys must use double quotes."],
+          ["Unquoted keys", '<code>{a: 1}</code>', "Object keys are strings, so they always need quotes — this is where JavaScript object literals and JSON diverge."],
+          ["Comments", '<code>{ // note\\n "a": 1 }</code>', "JSON has no comment syntax. Strip them, or use a format such as JSONC or YAML that allows them."],
+          ["Unescaped characters", '<code>{"path": "C:\\\\new"}</code>', "Backslashes, literal newlines and unescaped double quotes inside a string must be escaped."],
+          ["NaN, Infinity, undefined", '<code>{"n": NaN}</code>', "Not part of the JSON number grammar. Use null, or a string, or a sentinel number."],
+          ["Missing bracket or brace", '<code>{"a": [1, 2}</code>', "Every opener needs its matching closer — the classic error from hand-editing a large file."],
+          ["Truncated payload", "response cut mid-object", "Usually a size limit or a dropped connection rather than a syntax bug, but the parser reports it as unexpected end of input."],
+        ],
+        caption: "The eight failures behind the overwhelming majority of 'invalid JSON' messages.",
+      },
+      { type: "p", html: "One thing a validator will <em>not</em> tell you: whether the JSON means what you intended. Valid syntax with the wrong key names, wrong types or missing fields parses perfectly. That is a schema question, not a syntax one." },
+
+      { type: "h2", id: "how-to", text: "How to use the EasyFileMagic JSON Formatter" },
+      { type: "p", html: 'The tool runs entirely in your browser using the built-in <code>JSON.parse</code> and <code>JSON.stringify</code>, so API keys, customer records and internal payloads never leave your device.' },
+      { type: "ol", items: [
+        'Open the <a href="/tools/json-format" class="text-signal underline underline-offset-2">JSON Formatter &amp; Validator</a>.',
+        "Paste your JSON into the input box, or drop a <code>.json</code> file onto the upload area to load its contents.",
+        "Choose <strong>Pretty print</strong> or <strong>Minify</strong>. In pretty-print mode you can set the indent to 2, 4 or 8 spaces.",
+        "Press <strong>Format</strong> (or <strong>Minify</strong>). Valid input produces the result plus a confirmation showing the output length in characters.",
+        "If the input is invalid, you get the parser message together with the exact <strong>line and column</strong> of the failure — go to that spot in your source and the cause is almost always visible within a character or two.",
+        "Use <strong>Copy</strong> to put the result on your clipboard, or <strong>Download</strong> to save it as <code>formatted.json</code>.",
+      ] },
+      { type: "h3", id: "related", text: "Related tools" },
+      { type: "p", html: 'Working with the same data in another shape? <a href="/tools/json-yaml" class="text-signal underline underline-offset-2">JSON ⇄ YAML</a> converts between the two formats, <a href="/tools/csv-json" class="text-signal underline underline-offset-2">CSV ⇄ JSON</a> handles tabular exports, <a href="/tools/json-to-sql" class="text-signal underline underline-offset-2">JSON to SQL</a> turns records into insert statements, and the <a href="/tools/jwt-decoder" class="text-signal underline underline-offset-2">JWT Decoder</a> unpacks a token into its JSON claims. For epoch fields inside a payload, pair it with the <a href="/tools/timestamp-converter" class="text-signal underline underline-offset-2">Unix Timestamp Converter</a>.' },
+    ],
+    faqs: [
+      { q: "What does a JSON formatter do?", a: "It parses your JSON and writes it back out with consistent indentation and line breaks so the structure is readable. Because it must parse the input first, it also acts as a validator: if it cannot format the text, the JSON is invalid." },
+      { q: "How do I find the error in invalid JSON?", a: "Use a validator that reports a position. Our tool converts the parser's character offset into a line and column number, so you can jump straight to the failing character in your source file." },
+      { q: "Why is a trailing comma invalid in JSON?", a: "The JSON grammar requires a value after every comma. Trailing commas are allowed in JavaScript object literals and in relaxed formats like JSON5, which is why the mistake is so common — but a strict JSON parser rejects them." },
+      { q: "Can JSON contain comments?", a: "No. The JSON specification has no comment syntax. If you need comments in a config file, use JSONC, YAML or TOML, and strip comments before parsing the file as JSON." },
+      { q: "Is minified JSON different data?", a: "No. Minifying only removes optional whitespace between tokens. The parsed structure — keys, values, types and order of array items — is identical." },
+      { q: "Is my JSON uploaded to a server?", a: "No. Formatting, minifying and validation all run in your browser with the standard JSON API. Nothing is transmitted, logged or stored, so it is safe to paste production payloads." },
+      { q: "Is there a size limit?", a: "There is no server quota because there is no server. The practical limit is your device's memory and how fast your browser renders a very large document in a text area." },
+    ],
+    cta: { toolSlug: "json-format", heading: "Format and validate your JSON now", body: "Pretty-print with your chosen indent, minify, or find the exact line and column of a syntax error — free, no signup, and your data never leaves your browser." },
+    sources: [
+      { label: "ECMA-404 — The JSON Data Interchange Syntax", href: "https://www.ecma-international.org/publications-and-standards/standards/ecma-404/" },
+      { label: "RFC 8259 — The JavaScript Object Notation (JSON) Data Interchange Format", href: "https://www.rfc-editor.org/rfc/rfc8259" },
+      { label: "MDN — JSON.parse()", href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse" },
+    ],
+  },
+  {
+    slug: "password-generator-security-guide",
+    title: "Strong Password Generator: How to Create Secure Passwords (2026)",
+    description:
+      "Why length beats complexity, what entropy really measures, why password reuse is the biggest risk, and how to generate a strong random password in your browser.",
+    summary:
+      "A strong password is long and randomly generated, and used on exactly one account. EasyFileMagic's Password Generator builds passwords of 4–64 characters from the sets you choose using the browser's cryptographic random number generator — nothing is sent to a server or stored anywhere.",
+    date: "2026-08-12",
+    readMinutes: 8,
+    tags: ["Security", "How-to", "Developer"],
+    hero: {
+      src: "/blog/blog-password-generator-hero.jpg",
+      alt: "A padlock next to a masked password field and a password strength meter.",
+    },
+    body: [
+      { type: "p", html: 'Most advice about passwords is a decade out of date: mix in a symbol, swap an "o" for a zero, change it every 90 days. Modern guidance from bodies such as NIST has moved in a different direction — favour length, favour randomness, stop forcing arbitrary rotation, and screen against known-breached passwords. This guide explains what actually makes a password hard to guess, and how to produce one with our <a href="/tools/password-generator" class="text-signal underline underline-offset-2">Password Generator</a>.' },
+
+      { type: "h2", id: "what-makes-strong", text: "What makes a password strong" },
+      { type: "h3", id: "randomness", text: "Randomness comes first" },
+      { type: "p", html: "A password is only as strong as the process that produced it. A human-chosen password follows human patterns — a word, a capital at the front, a number and an exclamation mark at the end — and cracking tools model those patterns directly. A password drawn character by character from a random source has no pattern to model, which is the whole point of using a generator rather than your imagination." },
+      { type: "h3", id: "length", text: "Length beats complexity" },
+      { type: "p", html: "Adding one character to a random password multiplies the number of possibilities by the size of the alphabet. Adding one more symbol type to a short password only widens the alphabet slightly. Given a choice between a 10-character password with every character class and a 20-character lowercase-and-digit password, the longer one is dramatically harder to brute force." },
+      { type: "h3", id: "entropy", text: "Entropy, in plain terms" },
+      { type: "p", html: "Entropy is a measure, in bits, of how many equally likely possibilities a random password was drawn from. Each extra bit doubles the search space. For a password of <em>L</em> characters chosen uniformly from an alphabet of <em>N</em> symbols, the entropy is <em>L × log₂(N)</em>." },
+      {
+        type: "table",
+        headers: ["Alphabet", "Bits per character", "16 characters", "20 characters"],
+        rows: [
+          ["Digits only (10)", "3.32", "≈ 53 bits", "≈ 66 bits"],
+          ["Lowercase only (26)", "4.70", "≈ 75 bits", "≈ 94 bits"],
+          ["Upper + lower + digits (62)", "5.95", "≈ 95 bits", "≈ 119 bits"],
+          ["All four sets (~86)", "6.43", "≈ 103 bits", "≈ 129 bits"],
+        ],
+        caption: "Entropy of a uniformly random password. These figures only hold when the characters are genuinely random — a memorised phrase dressed up with symbols has far less entropy than its length suggests.",
+      },
+      { type: "p", html: "The practical takeaway: anything above roughly 80 bits of true entropy is beyond offline brute force with any foreseeable hardware, and the generator's default of 20 characters across all four sets comfortably exceeds that. Beyond that point the weak link is never the password's maths — it is reuse, phishing, and where the password is stored." },
+      { type: "h3", id: "reuse", text: "Never reuse a password" },
+      { type: "p", html: "This is the single most important rule, and it is why generated passwords need a manager rather than a memory. When any site is breached, the leaked credentials are replayed against other services automatically — an attack known as credential stuffing. A unique password per account turns one site's bad day into one account's problem. A reused password turns it into all of them." },
+      { type: "h3", id: "habits", text: "The rest of the checklist" },
+      { type: "ul", items: [
+        "Use a password manager so every account can have a different long random string you never need to type from memory.",
+        "Turn on two-factor authentication wherever it is offered; an app-based or hardware key factor is stronger than SMS.",
+        "Change a password when there is a reason to — a breach notice, a shared device, a suspicion — rather than on a fixed schedule.",
+        "Keep a handful of memorable passphrases only for the secrets that unlock everything else, such as your password manager and your device login.",
+        "Never send a password over email or chat; share credentials through your manager's sharing feature instead.",
+      ] },
+
+      { type: "h2", id: "how-to", text: "How to use the EasyFileMagic Password Generator" },
+      { type: "p", html: 'The generator uses <code>crypto.getRandomValues</code>, the browser\'s cryptographically secure random number generator — not <code>Math.random</code>. Everything happens on your device: the password is never transmitted, logged or saved, and reloading the page discards it.' },
+      { type: "ol", items: [
+        'Open the <a href="/tools/password-generator" class="text-signal underline underline-offset-2">Password Generator</a>. A password appears immediately, at the default length of 20 characters with all four character sets enabled.',
+        "Drag the <strong>length</strong> slider to anything from 4 to 64 characters. Longer is stronger; match the site's maximum if it enforces one.",
+        "Tick the character sets you want: lowercase, uppercase, digits and symbols. The generator guarantees at least one character from every set you enable, then fills the rest from the combined pool and shuffles the result.",
+        "Enable <strong>exclude ambiguous characters</strong> if the password will be read aloud or typed by hand — it removes the easily confused I, l, 1, O, 0 and o at a small cost in entropy.",
+        "Watch the <strong>strength meter</strong> update as you change options. It scores length and the variety of character classes present.",
+        "Press <strong>New</strong> for a different password, or <strong>Copy</strong> to put it on your clipboard — then paste it straight into your password manager before you navigate away.",
+      ] },
+      { type: "h3", id: "after", text: "After you generate" },
+      { type: "p", html: 'Save the password into a manager immediately; the tool deliberately keeps no history. If you need a one-way fingerprint of a string rather than a secret to store, our <a href="/tools/hash-text" class="text-signal underline underline-offset-2">Hash Text</a> tool computes SHA hashes locally, and <a href="/tools/uuid-generator" class="text-signal underline underline-offset-2">UUID Generator</a> is the right tool for random identifiers that are not secrets.' },
+
+      { type: "h2", id: "privacy", text: "Why an in-browser generator matters here" },
+      { type: "p", html: "A password generated on someone else's server is a password that existed, however briefly, on someone else's machine. There is rarely any reason to accept that risk: generating random characters needs no server-side capability at all. Our generator runs in the page, works offline once loaded, requires no account, and produces nothing that is stored anywhere — which is exactly the standard you should hold any password tool to." },
+    ],
+    faqs: [
+      { q: "How long should a password be?", a: "For an account you protect with a password manager, 16 to 20 randomly generated characters is a sensible default and is far beyond offline brute-force reach. Go longer where the site allows it; never go below 12 for anything that matters." },
+      { q: "Is length or complexity more important?", a: "Length. Each additional character multiplies the number of possible passwords, while adding a character class only widens the alphabet slightly. A long random password beats a short one packed with symbols." },
+      { q: "What is password entropy?", a: "It is the number of bits needed to describe how many equally likely possibilities a random password was drawn from, calculated as length multiplied by log2 of the alphabet size. Each extra bit doubles the work an attacker must do." },
+      { q: "Why should I never reuse passwords?", a: "Because leaked credentials from one breached site are automatically replayed against other services — credential stuffing. A unique password per account contains the damage to the one site that was actually breached." },
+      { q: "Are the generated passwords truly random?", a: "They are produced with crypto.getRandomValues, the browser's cryptographically secure random number generator, rather than Math.random. Characters are drawn from the sets you enable and then shuffled." },
+      { q: "Is the password sent to a server?", a: "No. Generation happens entirely in your browser, nothing is transmitted or stored, and the password disappears when you close or reload the page." },
+      { q: "Should I exclude ambiguous characters?", a: "Only when a human will read or retype the password — it removes I, l, 1, O, 0 and o to prevent mistakes. It slightly shrinks the alphabet, which you can offset by adding a character or two of length." },
+      { q: "How often should I change my passwords?", a: "Modern guidance favours changing a password when there is evidence it may be compromised, rather than on a fixed schedule. Forced rotation tends to push people toward predictable variations of an old password." },
+    ],
+    cta: { toolSlug: "password-generator", heading: "Generate a strong password now", body: "Pick your length and character sets and get a cryptographically random password instantly — free, no signup, generated in your browser and never stored." },
+    sources: [
+      { label: "NIST SP 800-63B — Digital Identity Guidelines: Authenticator and Verifier Requirements", href: "https://pages.nist.gov/800-63-3/sp800-63b.html" },
+      { label: "MDN — Crypto.getRandomValues()", href: "https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues" },
+      { label: "OWASP — Authentication Cheat Sheet", href: "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html" },
+      { label: "NCSC — Password policy: updating your approach", href: "https://www.ncsc.gov.uk/collection/passwords/updating-your-approach" },
+    ],
+  },
+  {
     slug: "free-online-pdf-editor-guide-2026",
     title: "Free Online PDF Editor: Complete Guide (2026)",
     description:
