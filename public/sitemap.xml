@@ -1,2627 +1,2632 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://easyfilemagic.com/</loc>
+    <loc>https://www.easyfilemagic.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/about</loc>
+    <loc>https://www.easyfilemagic.com/about</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog</loc>
+    <loc>https://www.easyfilemagic.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/vs</loc>
+    <loc>https://www.easyfilemagic.com/vs</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/changelog</loc>
+    <loc>https://www.easyfilemagic.com/changelog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/privacy</loc>
+    <loc>https://www.easyfilemagic.com/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/terms</loc>
+    <loc>https://www.easyfilemagic.com/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/contact</loc>
+    <loc>https://www.easyfilemagic.com/contact</loc>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr</loc>
+    <loc>https://www.easyfilemagic.com/fr</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es</loc>
+    <loc>https://www.easyfilemagic.com/es</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar</loc>
+    <loc>https://www.easyfilemagic.com/ar</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/merge-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/merge-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-editor</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/split-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/split-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/compress-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/compress-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/compress-image</loc>
+    <loc>https://www.easyfilemagic.com/tools/compress-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-converter</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/qr-code-generator</loc>
+    <loc>https://www.easyfilemagic.com/tools/qr-code-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/csv-json</loc>
+    <loc>https://www.easyfilemagic.com/tools/csv-json</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/zip-files</loc>
+    <loc>https://www.easyfilemagic.com/tools/zip-files</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/ocr</loc>
+    <loc>https://www.easyfilemagic.com/tools/ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-word</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-word</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/remove-background</loc>
+    <loc>https://www.easyfilemagic.com/tools/remove-background</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/sign-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/sign-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/protect-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/protect-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/media-convert</loc>
+    <loc>https://www.easyfilemagic.com/tools/media-convert</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/rotate-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/rotate-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-resize</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-resize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/heic-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/tools/heic-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-to-pptx</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-to-pptx</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/file-hash</loc>
+    <loc>https://www.easyfilemagic.com/tools/file-hash</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/watermark-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/watermark-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/page-numbers-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/page-numbers-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/barcode-generator</loc>
+    <loc>https://www.easyfilemagic.com/tools/barcode-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/color-palette</loc>
+    <loc>https://www.easyfilemagic.com/tools/color-palette</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/text-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/text-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/extract-images-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/extract-images-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/meme-generator</loc>
+    <loc>https://www.easyfilemagic.com/tools/meme-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/json-format</loc>
+    <loc>https://www.easyfilemagic.com/tools/json-format</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/base64</loc>
+    <loc>https://www.easyfilemagic.com/tools/base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/video-to-gif</loc>
+    <loc>https://www.easyfilemagic.com/tools/video-to-gif</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-translator</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-translator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/photo-id-maker</loc>
+    <loc>https://www.easyfilemagic.com/tools/photo-id-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/bulk-image-compress</loc>
+    <loc>https://www.easyfilemagic.com/tools/bulk-image-compress</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-word-ocr</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-word-ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/salary-invoice-pk</loc>
+    <loc>https://www.easyfilemagic.com/tools/salary-invoice-pk</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/age-calculator-hijri</loc>
+    <loc>https://www.easyfilemagic.com/tools/age-calculator-hijri</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/resume-builder</loc>
+    <loc>https://www.easyfilemagic.com/tools/resume-builder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/file-size-reducer</loc>
+    <loc>https://www.easyfilemagic.com/tools/file-size-reducer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/qr-vcard-wifi</loc>
+    <loc>https://www.easyfilemagic.com/tools/qr-vcard-wifi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/currency-converter</loc>
+    <loc>https://www.easyfilemagic.com/tools/currency-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/product-bg-remover</loc>
+    <loc>https://www.easyfilemagic.com/tools/product-bg-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/unit-converter</loc>
+    <loc>https://www.easyfilemagic.com/tools/unit-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/watermark-image</loc>
+    <loc>https://www.easyfilemagic.com/tools/watermark-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/signature-maker</loc>
+    <loc>https://www.easyfilemagic.com/tools/signature-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/qr-scanner</loc>
+    <loc>https://www.easyfilemagic.com/tools/qr-scanner</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/word-counter</loc>
+    <loc>https://www.easyfilemagic.com/tools/word-counter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/case-converter</loc>
+    <loc>https://www.easyfilemagic.com/tools/case-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/color-converter</loc>
+    <loc>https://www.easyfilemagic.com/tools/color-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/password-generator</loc>
+    <loc>https://www.easyfilemagic.com/tools/password-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/url-encode</loc>
+    <loc>https://www.easyfilemagic.com/tools/url-encode</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/timestamp-converter</loc>
+    <loc>https://www.easyfilemagic.com/tools/timestamp-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/markdown-to-html</loc>
+    <loc>https://www.easyfilemagic.com/tools/markdown-to-html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/lorem-ipsum</loc>
+    <loc>https://www.easyfilemagic.com/tools/lorem-ipsum</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/text-diff</loc>
+    <loc>https://www.easyfilemagic.com/tools/text-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/uuid-generator</loc>
+    <loc>https://www.easyfilemagic.com/tools/uuid-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/regex-tester</loc>
+    <loc>https://www.easyfilemagic.com/tools/regex-tester</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/line-tools</loc>
+    <loc>https://www.easyfilemagic.com/tools/line-tools</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/slugify</loc>
+    <loc>https://www.easyfilemagic.com/tools/slugify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/jwt-decoder</loc>
+    <loc>https://www.easyfilemagic.com/tools/jwt-decoder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/json-yaml</loc>
+    <loc>https://www.easyfilemagic.com/tools/json-yaml</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/html-to-markdown</loc>
+    <loc>https://www.easyfilemagic.com/tools/html-to-markdown</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/exif-remover</loc>
+    <loc>https://www.easyfilemagic.com/tools/exif-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/number-base</loc>
+    <loc>https://www.easyfilemagic.com/tools/number-base</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/random-number</loc>
+    <loc>https://www.easyfilemagic.com/tools/random-number</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/bmi-calculator</loc>
+    <loc>https://www.easyfilemagic.com/tools/bmi-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/loan-calculator</loc>
+    <loc>https://www.easyfilemagic.com/tools/loan-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/text-repeat</loc>
+    <loc>https://www.easyfilemagic.com/tools/text-repeat</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-to-base64</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-to-base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-to-text</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-to-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-organize</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-organize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-crop</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-metadata-editor</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-metadata-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-crop</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-flip-rotate</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-flip-rotate</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/svg-to-png</loc>
+    <loc>https://www.easyfilemagic.com/tools/svg-to-png</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/favicon-generator</loc>
+    <loc>https://www.easyfilemagic.com/tools/favicon-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/epoch-diff</loc>
+    <loc>https://www.easyfilemagic.com/tools/epoch-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/hash-text</loc>
+    <loc>https://www.easyfilemagic.com/tools/hash-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/color-contrast</loc>
+    <loc>https://www.easyfilemagic.com/tools/color-contrast</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/css-gradient</loc>
+    <loc>https://www.easyfilemagic.com/tools/css-gradient</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/box-shadow</loc>
+    <loc>https://www.easyfilemagic.com/tools/box-shadow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/cron-parser</loc>
+    <loc>https://www.easyfilemagic.com/tools/cron-parser</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/percentage-calculator</loc>
+    <loc>https://www.easyfilemagic.com/tools/percentage-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-to-ascii</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-to-ascii</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-to-csv</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-to-csv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-redact</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-redact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/image-upscaler</loc>
+    <loc>https://www.easyfilemagic.com/tools/image-upscaler</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/audio-trimmer</loc>
+    <loc>https://www.easyfilemagic.com/tools/audio-trimmer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/json-to-sql</loc>
+    <loc>https://www.easyfilemagic.com/tools/json-to-sql</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/html-minifier</loc>
+    <loc>https://www.easyfilemagic.com/tools/html-minifier</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/css-beautify</loc>
+    <loc>https://www.easyfilemagic.com/tools/css-beautify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/mock-data</loc>
+    <loc>https://www.easyfilemagic.com/tools/mock-data</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/sql-formatter</loc>
+    <loc>https://www.easyfilemagic.com/tools/sql-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/yaml-formatter</loc>
+    <loc>https://www.easyfilemagic.com/tools/yaml-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/ai-summarizer</loc>
+    <loc>https://www.easyfilemagic.com/tools/ai-summarizer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/ai-image-caption</loc>
+    <loc>https://www.easyfilemagic.com/tools/ai-image-caption</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/ai-transcribe</loc>
+    <loc>https://www.easyfilemagic.com/tools/ai-transcribe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/ai-upscale</loc>
+    <loc>https://www.easyfilemagic.com/tools/ai-upscale</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/invoice-generator</loc>
+    <loc>https://www.easyfilemagic.com/tools/invoice-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/pdf-nup</loc>
+    <loc>https://www.easyfilemagic.com/tools/pdf-nup</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/photo-collage</loc>
+    <loc>https://www.easyfilemagic.com/tools/photo-collage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/tools/csv-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/tools/csv-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/merge-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/merge-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-editor</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/split-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/split-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/compress-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/compress-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/compress-image</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/compress-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-converter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/qr-code-generator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/qr-code-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/csv-json</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/csv-json</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/zip-files</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/zip-files</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/ocr</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-word</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-word</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/remove-background</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/remove-background</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/sign-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/sign-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/protect-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/protect-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/media-convert</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/media-convert</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/rotate-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/rotate-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-resize</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-resize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/heic-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/heic-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-to-pptx</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-to-pptx</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/file-hash</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/file-hash</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/watermark-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/watermark-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/page-numbers-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/page-numbers-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/barcode-generator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/barcode-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/color-palette</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/color-palette</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/text-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/text-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/extract-images-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/extract-images-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/meme-generator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/meme-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/json-format</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/json-format</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/base64</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/video-to-gif</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/video-to-gif</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-translator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-translator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/photo-id-maker</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/photo-id-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/bulk-image-compress</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/bulk-image-compress</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-word-ocr</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-word-ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/salary-invoice-pk</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/salary-invoice-pk</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/age-calculator-hijri</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/age-calculator-hijri</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/resume-builder</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/resume-builder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/file-size-reducer</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/file-size-reducer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/qr-vcard-wifi</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/qr-vcard-wifi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/currency-converter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/currency-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/product-bg-remover</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/product-bg-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/unit-converter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/unit-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/watermark-image</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/watermark-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/signature-maker</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/signature-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/qr-scanner</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/qr-scanner</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/word-counter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/word-counter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/case-converter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/case-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/color-converter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/color-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/password-generator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/password-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/url-encode</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/url-encode</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/timestamp-converter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/timestamp-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/markdown-to-html</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/markdown-to-html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/lorem-ipsum</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/lorem-ipsum</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/text-diff</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/text-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/uuid-generator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/uuid-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/regex-tester</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/regex-tester</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/line-tools</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/line-tools</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/slugify</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/slugify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/jwt-decoder</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/jwt-decoder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/json-yaml</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/json-yaml</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/html-to-markdown</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/html-to-markdown</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/exif-remover</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/exif-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/number-base</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/number-base</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/random-number</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/random-number</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/bmi-calculator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/bmi-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/loan-calculator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/loan-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/text-repeat</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/text-repeat</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-to-base64</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-to-base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-to-text</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-to-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-organize</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-organize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-crop</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-metadata-editor</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-metadata-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-crop</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-flip-rotate</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-flip-rotate</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/svg-to-png</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/svg-to-png</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/favicon-generator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/favicon-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/epoch-diff</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/epoch-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/hash-text</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/hash-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/color-contrast</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/color-contrast</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/css-gradient</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/css-gradient</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/box-shadow</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/box-shadow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/cron-parser</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/cron-parser</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/percentage-calculator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/percentage-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-to-ascii</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-to-ascii</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-to-csv</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-to-csv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-redact</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-redact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/image-upscaler</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/image-upscaler</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/audio-trimmer</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/audio-trimmer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/json-to-sql</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/json-to-sql</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/html-minifier</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/html-minifier</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/css-beautify</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/css-beautify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/mock-data</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/mock-data</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/sql-formatter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/sql-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/yaml-formatter</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/yaml-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/ai-summarizer</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/ai-summarizer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/ai-image-caption</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/ai-image-caption</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/ai-transcribe</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/ai-transcribe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/ai-upscale</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/ai-upscale</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/invoice-generator</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/invoice-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/pdf-nup</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/pdf-nup</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/photo-collage</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/photo-collage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/fr/tools/csv-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/fr/tools/csv-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/merge-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/merge-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-editor</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/split-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/split-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/compress-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/compress-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/compress-image</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/compress-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-converter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/qr-code-generator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/qr-code-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/csv-json</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/csv-json</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/zip-files</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/zip-files</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/ocr</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-word</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-word</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/remove-background</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/remove-background</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/sign-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/sign-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/protect-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/protect-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/media-convert</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/media-convert</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/rotate-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/rotate-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-resize</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-resize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/heic-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/heic-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-to-pptx</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-to-pptx</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/file-hash</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/file-hash</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/watermark-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/watermark-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/page-numbers-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/page-numbers-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/barcode-generator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/barcode-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/color-palette</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/color-palette</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/text-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/text-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/extract-images-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/extract-images-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/meme-generator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/meme-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/json-format</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/json-format</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/base64</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/video-to-gif</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/video-to-gif</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-translator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-translator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/photo-id-maker</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/photo-id-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/bulk-image-compress</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/bulk-image-compress</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-word-ocr</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-word-ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/salary-invoice-pk</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/salary-invoice-pk</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/age-calculator-hijri</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/age-calculator-hijri</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/resume-builder</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/resume-builder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/file-size-reducer</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/file-size-reducer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/qr-vcard-wifi</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/qr-vcard-wifi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/currency-converter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/currency-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/product-bg-remover</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/product-bg-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/unit-converter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/unit-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/watermark-image</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/watermark-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/signature-maker</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/signature-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/qr-scanner</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/qr-scanner</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/word-counter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/word-counter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/case-converter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/case-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/color-converter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/color-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/password-generator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/password-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/url-encode</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/url-encode</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/timestamp-converter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/timestamp-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/markdown-to-html</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/markdown-to-html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/lorem-ipsum</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/lorem-ipsum</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/text-diff</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/text-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/uuid-generator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/uuid-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/regex-tester</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/regex-tester</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/line-tools</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/line-tools</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/slugify</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/slugify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/jwt-decoder</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/jwt-decoder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/json-yaml</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/json-yaml</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/html-to-markdown</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/html-to-markdown</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/exif-remover</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/exif-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/number-base</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/number-base</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/random-number</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/random-number</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/bmi-calculator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/bmi-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/loan-calculator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/loan-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/text-repeat</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/text-repeat</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-to-base64</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-to-base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-to-text</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-to-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-organize</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-organize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-crop</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-metadata-editor</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-metadata-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-crop</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-flip-rotate</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-flip-rotate</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/svg-to-png</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/svg-to-png</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/favicon-generator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/favicon-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/epoch-diff</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/epoch-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/hash-text</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/hash-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/color-contrast</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/color-contrast</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/css-gradient</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/css-gradient</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/box-shadow</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/box-shadow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/cron-parser</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/cron-parser</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/percentage-calculator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/percentage-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-to-ascii</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-to-ascii</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-to-csv</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-to-csv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-redact</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-redact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/image-upscaler</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/image-upscaler</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/audio-trimmer</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/audio-trimmer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/json-to-sql</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/json-to-sql</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/html-minifier</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/html-minifier</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/css-beautify</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/css-beautify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/mock-data</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/mock-data</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/sql-formatter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/sql-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/yaml-formatter</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/yaml-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/ai-summarizer</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/ai-summarizer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/ai-image-caption</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/ai-image-caption</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/ai-transcribe</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/ai-transcribe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/ai-upscale</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/ai-upscale</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/invoice-generator</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/invoice-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/pdf-nup</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/pdf-nup</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/photo-collage</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/photo-collage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/es/tools/csv-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/es/tools/csv-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/merge-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/merge-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-editor</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/split-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/split-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/compress-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/compress-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/compress-image</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/compress-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-converter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/qr-code-generator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/qr-code-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/csv-json</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/csv-json</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/zip-files</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/zip-files</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/ocr</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-word</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-word</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/remove-background</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/remove-background</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/sign-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/sign-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/protect-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/protect-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/media-convert</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/media-convert</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/rotate-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/rotate-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-resize</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-resize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/heic-to-jpg</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/heic-to-jpg</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-to-pptx</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-to-pptx</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/file-hash</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/file-hash</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/watermark-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/watermark-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/page-numbers-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/page-numbers-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/barcode-generator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/barcode-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/color-palette</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/color-palette</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/text-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/text-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/extract-images-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/extract-images-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/meme-generator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/meme-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/json-format</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/json-format</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/base64</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/video-to-gif</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/video-to-gif</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-translator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-translator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/photo-id-maker</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/photo-id-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/bulk-image-compress</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/bulk-image-compress</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-word-ocr</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-word-ocr</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/salary-invoice-pk</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/salary-invoice-pk</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/age-calculator-hijri</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/age-calculator-hijri</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/resume-builder</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/resume-builder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/file-size-reducer</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/file-size-reducer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/qr-vcard-wifi</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/qr-vcard-wifi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/currency-converter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/currency-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/product-bg-remover</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/product-bg-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/unit-converter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/unit-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/watermark-image</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/watermark-image</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/signature-maker</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/signature-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/qr-scanner</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/qr-scanner</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/word-counter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/word-counter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/case-converter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/case-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/color-converter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/color-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/password-generator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/password-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/url-encode</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/url-encode</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/timestamp-converter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/timestamp-converter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/markdown-to-html</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/markdown-to-html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/lorem-ipsum</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/lorem-ipsum</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/text-diff</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/text-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/uuid-generator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/uuid-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/regex-tester</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/regex-tester</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/line-tools</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/line-tools</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/slugify</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/slugify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/jwt-decoder</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/jwt-decoder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/json-yaml</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/json-yaml</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/html-to-markdown</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/html-to-markdown</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/exif-remover</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/exif-remover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/number-base</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/number-base</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/random-number</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/random-number</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/bmi-calculator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/bmi-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/loan-calculator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/loan-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/text-repeat</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/text-repeat</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-to-base64</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-to-base64</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-to-text</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-to-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-organize</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-organize</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-crop</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-metadata-editor</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-metadata-editor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-crop</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-crop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-flip-rotate</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-flip-rotate</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/svg-to-png</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/svg-to-png</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/favicon-generator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/favicon-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/epoch-diff</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/epoch-diff</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/hash-text</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/hash-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/color-contrast</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/color-contrast</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/css-gradient</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/css-gradient</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/box-shadow</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/box-shadow</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/cron-parser</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/cron-parser</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/percentage-calculator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/percentage-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-to-ascii</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-to-ascii</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-to-csv</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-to-csv</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-redact</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-redact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/image-upscaler</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/image-upscaler</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/audio-trimmer</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/audio-trimmer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/json-to-sql</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/json-to-sql</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/html-minifier</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/html-minifier</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/css-beautify</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/css-beautify</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/mock-data</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/mock-data</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/sql-formatter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/sql-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/yaml-formatter</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/yaml-formatter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/ai-summarizer</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/ai-summarizer</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/ai-image-caption</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/ai-image-caption</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/ai-transcribe</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/ai-transcribe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/ai-upscale</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/ai-upscale</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/invoice-generator</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/invoice-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/pdf-nup</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/pdf-nup</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/photo-collage</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/photo-collage</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ar/tools/csv-to-pdf</loc>
+    <loc>https://www.easyfilemagic.com/ar/tools/csv-to-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/json-formatter-validator-guide</loc>
+    <loc>https://www.easyfilemagic.com/blog/image-compressor-guide-2026</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/password-generator-security-guide</loc>
+    <loc>https://www.easyfilemagic.com/blog/json-formatter-validator-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/free-online-pdf-editor-guide-2026</loc>
+    <loc>https://www.easyfilemagic.com/blog/password-generator-security-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/unix-timestamp-converter-guide</loc>
+    <loc>https://www.easyfilemagic.com/blog/free-online-pdf-editor-guide-2026</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/jpg-to-webp-converter-guide-2026</loc>
+    <loc>https://www.easyfilemagic.com/blog/unix-timestamp-converter-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/best-free-pdf-to-word-converter-2026</loc>
+    <loc>https://www.easyfilemagic.com/blog/jpg-to-webp-converter-guide-2026</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-merge-pdf-files-free</loc>
+    <loc>https://www.easyfilemagic.com/blog/best-free-pdf-to-word-converter-2026</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/convert-pdf-to-word-keep-formatting</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-merge-pdf-files-free</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/compress-image-to-specific-kb-size</loc>
+    <loc>https://www.easyfilemagic.com/blog/convert-pdf-to-word-keep-formatting</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-split-a-pdf-and-extract-pages</loc>
+    <loc>https://www.easyfilemagic.com/blog/compress-image-to-specific-kb-size</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-create-a-qr-code-that-works</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-split-a-pdf-and-extract-pages</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-compress-a-pdf-without-losing-quality</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-create-a-qr-code-that-works</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/free-file-conversion-tools-you-actually-need-2026</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-compress-a-pdf-without-losing-quality</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-remove-background-from-photo-without-photoshop</loc>
+    <loc>https://www.easyfilemagic.com/blog/free-file-conversion-tools-you-actually-need-2026</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/pdf-wont-open-or-looks-corrupted-fix</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-remove-background-from-photo-without-photoshop</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/jpg-vs-png-vs-webp-when-to-use-each</loc>
+    <loc>https://www.easyfilemagic.com/blog/pdf-wont-open-or-looks-corrupted-fix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-sign-a-pdf-without-printing</loc>
+    <loc>https://www.easyfilemagic.com/blog/jpg-vs-png-vs-webp-when-to-use-each</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/ocr-explained-scanned-document-to-editable-text</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-sign-a-pdf-without-printing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/heic-photos-wont-open-on-windows-android-fix</loc>
+    <loc>https://www.easyfilemagic.com/blog/ocr-explained-scanned-document-to-editable-text</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-password-protect-a-pdf</loc>
+    <loc>https://www.easyfilemagic.com/blog/heic-photos-wont-open-on-windows-android-fix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/compress-pdf-what-actually-happens</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-password-protect-a-pdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/qr-codes-vs-barcodes-when-to-use-which</loc>
+    <loc>https://www.easyfilemagic.com/blog/compress-pdf-what-actually-happens</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/browser-based-file-processing-is-it-safe</loc>
+    <loc>https://www.easyfilemagic.com/blog/qr-codes-vs-barcodes-when-to-use-which</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/comment-convertir-pdf-word-gratuit</loc>
+    <loc>https://www.easyfilemagic.com/blog/browser-based-file-processing-is-it-safe</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/pdf-in-word-umwandeln-kostenlos</loc>
+    <loc>https://www.easyfilemagic.com/blog/comment-convertir-pdf-word-gratuit</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/tahwil-pdf-ila-word</loc>
+    <loc>https://www.easyfilemagic.com/blog/pdf-in-word-umwandeln-kostenlos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/compresser-pdf-sans-perte-qualite</loc>
+    <loc>https://www.easyfilemagic.com/blog/tahwil-pdf-ila-word</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-compress-a-pdf-without-losing-quality</loc>
+    <loc>https://www.easyfilemagic.com/blog/compresser-pdf-sans-perte-qualite</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/kayfa-daghat-pdf-majanan</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-compress-a-pdf-without-losing-quality</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/bilder-ohne-qualitaetsverlust-komprimieren</loc>
+    <loc>https://www.easyfilemagic.com/blog/kayfa-daghat-pdf-majanan</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/pdf-in-word-umwandeln-kostenlos</loc>
+    <loc>https://www.easyfilemagic.com/blog/bilder-ohne-qualitaetsverlust-komprimieren</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/comment-convertir-pdf-word-gratuit</loc>
+    <loc>https://www.easyfilemagic.com/blog/pdf-in-word-umwandeln-kostenlos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/tahwil-pdf-ila-word</loc>
+    <loc>https://www.easyfilemagic.com/blog/comment-convertir-pdf-word-gratuit</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/heic-in-jpg-umwandeln-iphone</loc>
+    <loc>https://www.easyfilemagic.com/blog/tahwil-pdf-ila-word</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/kayfa-daghat-pdf-majanan</loc>
+    <loc>https://www.easyfilemagic.com/blog/heic-in-jpg-umwandeln-iphone</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-compress-a-pdf-without-losing-quality</loc>
+    <loc>https://www.easyfilemagic.com/blog/kayfa-daghat-pdf-majanan</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/compresser-pdf-sans-perte-qualite</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-compress-a-pdf-without-losing-quality</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/tahwil-pdf-ila-word</loc>
+    <loc>https://www.easyfilemagic.com/blog/compresser-pdf-sans-perte-qualite</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/comment-convertir-pdf-word-gratuit</loc>
+    <loc>https://www.easyfilemagic.com/blog/tahwil-pdf-ila-word</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/pdf-in-word-umwandeln-kostenlos</loc>
+    <loc>https://www.easyfilemagic.com/blog/comment-convertir-pdf-word-gratuit</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-remove-background-from-image-free</loc>
+    <loc>https://www.easyfilemagic.com/blog/pdf-in-word-umwandeln-kostenlos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/how-to-use-claude-ai-pro-free</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-remove-background-from-image-free</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/blog/passport-size-photo-complete-guide-2025</loc>
+    <loc>https://www.easyfilemagic.com/blog/how-to-use-claude-ai-pro-free</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/second-brain</loc>
+    <loc>https://www.easyfilemagic.com/blog/passport-size-photo-complete-guide-2025</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.easyfilemagic.com/ai-prompts/second-brain</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/email-shorter</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/email-shorter</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/meeting-notes</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/meeting-notes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/explain-eli5</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/explain-eli5</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/life-coach</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/life-coach</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/learn-plan</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/learn-plan</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/decision-maker</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/decision-maker</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/blog-outline</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/blog-outline</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/hook-generator</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/hook-generator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/rewrite-tone</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/rewrite-tone</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/summarize-long</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/summarize-long</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/twitter-thread</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/twitter-thread</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/cold-email</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/cold-email</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/book-notes</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/book-notes</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/code-explain</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/code-explain</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/refactor-clean</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/refactor-clean</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/debug-error</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/debug-error</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/regex-builder</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/regex-builder</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/sql-from-english</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/sql-from-english</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/unit-tests</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/unit-tests</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/commit-message</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/commit-message</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/landing-page</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/landing-page</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/google-ad-copy</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/google-ad-copy</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/seo-keywords</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/seo-keywords</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/customer-persona</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/customer-persona</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/sales-page-vsl</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/sales-page-vsl</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/brand-voice</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/brand-voice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/linkedin-post</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/linkedin-post</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-cinematic-portrait</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-cinematic-portrait</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-product-shot</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-product-shot</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-logo-flat</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-logo-flat</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-fantasy-landscape</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-fantasy-landscape</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-anime-niji</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-anime-niji</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-isometric-room</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-isometric-room</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-street-photography</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-street-photography</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/mj-scifi-concept</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/mj-scifi-concept</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/dalle-icon-set</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/dalle-icon-set</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/dalle-book-cover</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/dalle-book-cover</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/dalle-blog-hero</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/dalle-blog-hero</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/dalle-thumbnail</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/dalle-thumbnail</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/dalle-avatar</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/dalle-avatar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/dalle-tshirt</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/dalle-tshirt</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-roast-me</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-roast-me</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-red-team</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-red-team</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-so-what</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-so-what</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-6yo-teacher</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-6yo-teacher</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-personal-mba</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-personal-mba</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-perspective</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-perspective</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-worst-advice</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-worst-advice</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-future-self</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-future-self</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/ai-prompts/viral-book-in-day</loc>
+    <loc>https://www.easyfilemagic.com/ai-prompts/viral-book-in-day</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/vs/ilovepdf</loc>
+    <loc>https://www.easyfilemagic.com/vs/ilovepdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/vs/smallpdf</loc>
+    <loc>https://www.easyfilemagic.com/vs/smallpdf</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://easyfilemagic.com/vs/adobe-acrobat-online</loc>
+    <loc>https://www.easyfilemagic.com/vs/adobe-acrobat-online</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
