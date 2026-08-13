@@ -2141,6 +2141,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://easyfilemagic.com/blog/json-formatter-validator-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://easyfilemagic.com/blog/password-generator-security-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://easyfilemagic.com/blog/free-online-pdf-editor-guide-2026</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2614,17 +2624,5 @@
     <loc>https://easyfilemagic.com/vs/adobe-acrobat-online</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.easyfilemagic.com/blog/json-formatter-validator-guide</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.easyfilemagic.com/blog/password-generator-security-guide</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
